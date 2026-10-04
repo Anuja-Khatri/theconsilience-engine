@@ -47,7 +47,7 @@ The judge is never a language model. Same inputs produce the same output. Verifi
 
 ## Validation
 
-Blind tested against an international adversarial collaboration where eleven laboratories spent nineteen months comparing two theories through expert workshops and travel. The engine recovered the same structural disagreements from theory texts alone in weeks, and surfaced one disagreement the experts could not resolve.
+Blind tested against an international adversarial collaboration where eleven laboratories spent nineteen months comparing two theories through expert workshops and travel. The engine recovered two of the three preregistered disagreements exactly and the third partially, from theory texts alone in weeks, and surfaced one disagreement the experts could not resolve.
 
 Two additional demos were built for US institutions whose entire work is interdisciplinary. The engine handled their material and they validated the results.
 
