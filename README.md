@@ -2,7 +2,7 @@
 
 **A deterministic verification engine for cross-domain scientific claim comparison.**
 
-![Determinism](https://img.shields.io/badge/determinism-verified-brightgreen) ![Papers](https://img.shields.io/badge/papers-4%20on%20Zenodo-blue) ![License](https://img.shields.io/badge/license-Apache%202.0-orange)
+[![Determinism Check](https://github.com/Anuja-Khatri/theconsilience-engine/actions/workflows/determinism.yml/badge.svg)](https://github.com/Anuja-Khatri/theconsilience-engine/actions/workflows/determinism.yml) ![Papers](https://img.shields.io/badge/papers-4%20on%20Zenodo-blue) ![License](https://img.shields.io/badge/license-Apache%202.0-orange)
 
 ---
 
