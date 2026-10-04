@@ -1,0 +1,61 @@
+{
+  "title": "TypedClaimCard",
+  "description": "A structured scientific claim extracted from a source text. Every field is required. The schema is enforced by Pydantic at extraction time.",
+  "type": "object",
+  "required": ["claim_id", "claim_kind", "commitment_direction", "causal_direction", "physical_scale", "measurability", "subject", "relation", "object", "source_sentence", "source_document", "provenance_hash"],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "description": "Unique identifier for this claim"
+    },
+    "claim_kind": {
+      "type": "string",
+      "enum": ["location", "timing", "architecture", "mechanism", "computability", "substrate"],
+      "description": "The type of scientific commitment this claim makes"
+    },
+    "commitment_direction": {
+      "type": "string",
+      "enum": ["asserts", "denies"],
+      "description": "Whether the theory asserts or denies this claim"
+    },
+    "causal_direction": {
+      "type": "string",
+      "enum": ["causes", "caused_by", "bidirectional", "independent"],
+      "description": "The causal arrow between subject and object"
+    },
+    "physical_scale": {
+      "type": "string",
+      "enum": ["quantum", "molecular", "cellular", "neural_circuit", "whole_brain", "behavioural", "phenomenal"],
+      "description": "The physical scale at which this claim operates"
+    },
+    "measurability": {
+      "type": "string",
+      "enum": ["measurable_now", "measurable_under_assumption", "not_measurable"],
+      "description": "Whether this claim is currently measurable"
+    },
+    "subject": {
+      "type": "string",
+      "description": "The subject of the claim"
+    },
+    "relation": {
+      "type": "string",
+      "description": "The typed relation connecting subject and object. Must conform to the ontology."
+    },
+    "object": {
+      "type": "string",
+      "description": "The object of the claim"
+    },
+    "source_sentence": {
+      "type": "string",
+      "description": "The exact sentence in the source text from which this claim was extracted"
+    },
+    "source_document": {
+      "type": "string",
+      "description": "The source document identifier"
+    },
+    "provenance_hash": {
+      "type": "string",
+      "description": "Content hash linking to the exact source location"
+    }
+  }
+}
