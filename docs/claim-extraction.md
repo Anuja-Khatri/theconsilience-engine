@@ -4,19 +4,23 @@
 
 Every scientific claim extracted by the engine becomes a structured object with these fields:
 
-- **Claim kind:** location, timing, architecture, mechanism, computability, or substrate
-- **Commitment direction:** asserts or denies
-- **Causal direction:** X causes Y, Y causes X, or bidirectional
-- **Physical scale:** quantum, molecular, cellular, neural circuit, whole brain, behavioural, or phenomenal
+- **Claim kind:** domain-pack-scoped. The consciousness pack uses: locus, temporal_profile, connectivity, substrate_dependence, computability, mechanism, observable_commitment. The physics pack uses: substrate, mechanism, architecture, measurement, location, scale, boundary. Each domain pack defines which kinds are available.
+- **Commitment direction:** asserts or denies. Negation is encoded as a polarity field on the claim, not as a separate claim kind. This keeps claim identity stable and makes forks computable as polarity disagreements on the same claim kind.
+- **Causal direction:** causes, caused_by, bidirectional, or independent
+- **Physical scale:** domain-pack-scoped. The consciousness pack uses quantum through phenomenal (7 levels). The physics pack adds planck and metaphysical (9 levels).
 - **Measurability:** measurable now, measurable under assumption, or not measurable
+- **Measurable with:** the specific instrument name, when measurable
+- **Domain:** the field the source belongs to, used for cross-corpus gating (never match within the same domain)
 - **Source sentence:** the exact sentence in the original paper this claim was extracted from
 - **Provenance hash:** content hash linking back to the source document, page, and paragraph
 
 ## How extraction works
 
-The model (Claude Haiku) reads a text chunk and produces a JSON object conforming to the typed claim card schema. The output is constrained by the schema: the model cannot invent new claim kinds or leave fields empty. Pydantic validates every card. Malformed output is rejected and retried twice, then flagged for human review.
+The model (Claude Sonnet) reads a text chunk and produces a JSON object conforming to the typed claim card schema. The output is constrained by the schema: the model cannot invent new claim kinds or leave fields empty. Pydantic validates every card. Malformed output is rejected and retried twice, then flagged for human review.
 
-For hard passages, Sonnet escalates. All extraction runs through Anthropic's Batch API at 50% cost.
+A second model (Claude Haiku) independently re-extracts the same passage as a cross-check. Structural agreement on the typed fields is required before a claim is match-eligible.
+
+All extraction runs through Anthropic's Batch API at 50% cost. Total model cost for a six-theory corpus: under $15 at mid-2026 API pricing. Adding one new theory costs approximately $2.50 in model spend and 3 to 5 hours of human review.
 
 ## What extraction does NOT do
 

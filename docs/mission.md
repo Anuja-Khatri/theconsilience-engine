@@ -4,7 +4,7 @@
 
 Everyone who works across fields performs the same task by hand. They read two literatures. They hold two vocabularies in their head. And they decide whether two claims are the same claim wearing different clothes, whether they genuinely conflict, or whether they simply cannot be compared.
 
-A biotech CSO does it when positioning a mechanism against rivals. A PhD student does it in a related-work section. A fund's scientific partner does it under deal pressure. A consciousness researcher does it when asking whether Integrated Information Theory and Global Neuronal Workspace actually disagree or merely describe the same thing differently.
+A PhD student does it in a related-work section. A researcher does it when comparing two theories across a vocabulary wall. A consciousness scientist does it when asking whether Integrated Information Theory and Global Neuronal Workspace actually disagree or merely describe the same thing differently.
 
 This work takes days to months. It does not scale. Its output is one person's opinion with a bibliography attached, and it cannot be reproduced, audited, or checked by anyone who was not in the room.
 

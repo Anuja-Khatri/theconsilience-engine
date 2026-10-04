@@ -1,13 +1,12 @@
-# Adjacent Tools and How Consilience Differs
+# Related Systems
 
-No competitor bashing. Just: what each does, what each does not, where Consilience sits.
+Technical notes on adjacent tools and where Consilience sits relative to them.
 
-| Tool | What it does | What it does not do | How Consilience differs |
+| System | What it does | What it does not do | Where Consilience differs |
 |---|---|---|---|
 | **Semantic Scholar** | Finds and ranks papers by citation graph | Does not compare claim structures | Consilience compares structural commitments, not documents |
 | **Elicit** | Extracts claims from papers, answers questions | Does not grade structural correspondence | Consilience grades with ceilings and publishes rejections |
 | **Consensus** | Finds scientific consensus from papers | Does not handle cross-domain vocabulary walls | Consilience strips vocabulary and matches structure |
-| **Causaly** | Knowledge graph of causal relations within biomedicine | Single domain, cannot cross vocabulary walls | Consilience operates across domains by design |
 | **NotebookLM** | Summarises uploaded documents | Ungraded, non-reproducible, changes every run | Consilience is deterministic and hash-verifiable |
 | **ChatGPT / Claude** | Generates plausible comparisons | Changes every time, no structural proof | Consilience gives same answer every time with structural receipts |
 | **ClaimFlow** | Tracks claim evolution within NLP through citation chains | Within-field only, not cross-domain | Consilience matches across fields with different vocabularies |
@@ -18,6 +17,6 @@ No competitor bashing. Just: what each does, what each does not, where Consilien
 
 ## The gap Consilience occupies
 
-Every tool above is either a retrieval tool (finds documents), a generation tool (produces hypotheses), or a within-domain tool (works inside one field).
+Every system above is either a retrieval tool (finds documents), a generation tool (produces hypotheses), or a within-domain tool (works inside one field).
 
 Nobody occupies the layer between retrieval and expert judgment for cross-domain structural comparison. That is where Consilience sits.

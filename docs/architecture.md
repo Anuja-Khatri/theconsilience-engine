@@ -14,8 +14,8 @@ Kambhampati's data showed autonomous LLM plans are correct roughly 12% of the ti
 |---|---|---|
 | Ingestion (Docling, WhisperX) | PDF, audio, video to structured text | Code |
 | Chunking | 250-400 token semantic chunks | Code |
-| Claim extraction | Papers to typed claim cards | Model (Haiku/Sonnet) |
-| Cross-model agreement | Independent re-extraction by different lineage | Model (different provider) |
+| Claim extraction | Papers to typed claim cards | Model (Sonnet primary) |
+| Cross-model agreement | Independent re-extraction by Haiku | Model (cross-check) |
 | Schema validation | Pydantic type checks | Code |
 | Adversarial calibration | Fake claim detection rate | Code |
 | Graph construction | Claim cards to typed directed graphs | Code (NetworkX) |

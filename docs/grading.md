@@ -10,6 +10,8 @@ A number without a ceiling on what it does not license is noise. "Similarity: 0.
 
 Complete structural match. One theory's typed graph maps exactly onto a substructure of the other, with matching node types, matching edge types, and matching causal directions.
 
+**Hard cap:** In cross-theory comparisons, Rung 1 is never assigned. Complete structural identity between rival theories is a probable extraction error, not a genuine finding. The highest achievable cross-theory grade is Rung 2 (structural analogy).
+
 **Ceiling:** Does not license ontological identity. Two theories can be structurally isomorphic and still describe different things. The match is structural, not metaphysical.
 
 ### Rung 2: Structural analogy (partial mapping)

@@ -30,6 +30,9 @@ A deterministic verification engine for cross-domain scientific claim comparison
 - [The equivocation test (Newman guard)](equivocation-test.md)
 - [Four-rung grading ladder](grading.md)
 
+### Discovery
+- [Structure-directed source acquisition](structure-directed-acquisition.md)
+
 ### Trust and evidence
 - [Trust tiers](trust-tiers.md)
 - [Published rejections](rejections.md)

@@ -28,4 +28,4 @@ This is the artifact that enables the decidability check: can anyone alive today
 
 ## Why these are the moat
 
-All three artifacts are authored, not computed. No shortcut exists. Extending the engine to a new domain (biopharma, materials science, physics) requires authoring all three for that domain. The code is open. The authored assets are not published. This is the protection line: mechanism is public, authored assets are private.
+All three artifacts are authored, not computed. No shortcut exists. Extending the engine to a new domain (materials science, ecology, condensed matter physics) requires authoring all three for that domain. The code is open. The authored assets are not published. This is the protection line: mechanism is public, authored assets are private.

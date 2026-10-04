@@ -18,16 +18,16 @@ Every step: what goes in, what comes out, what can fail.
 ## Step 3: Claim extraction
 
 **In:** Text chunks.
-**Tool:** Claude Haiku with JSON-schema-constrained output validated by Pydantic. Sonnet escalates for hard cases. All runs through Anthropic's Batch API at 50% cost.
+**Tool:** Claude Sonnet with JSON-schema-constrained output validated by Pydantic. Chosen for the cost-quality tradeoff: extraction is a one-time batch cost per corpus, and the cross-check plus human review gates catch quality issues that a more expensive model would merely make rarer. All runs through Anthropic's Batch API at 50% cost.
 **Out:** Typed claim cards. Each card contains: claim kind (location, timing, architecture, mechanism, computability, substrate), commitment direction (asserts or denies), causal direction, physical scale, what would measure it, and the exact source sentence.
 **Fail mode:** Malformed output rejected and retried twice, then flagged for human review. Never silently passed.
 
 ## Step 4: Cross-model agreement
 
 **In:** Claim cards from Step 3.
-**Tool:** A second model of different training lineage independently re-extracts the same passage.
-**Out:** Agreement or disagreement on structural fields. Agreed claims proceed. Disagreements flagged for review.
-**Why:** Models from the same training lineage share blind spots. Cross-lineage agreement converts residual extraction bias from an unknown into a measured, gated quantity.
+**Tool:** Claude Haiku (cheapest tier) independently re-extracts the same passage. Its job is binary: does the independent re-derivation agree with the primary extraction's typing?
+**Out:** Agreement or disagreement on structural fields. Agreed claims proceed. Disagreements flagged for human review regardless of which model is right.
+**Why:** Models from the same training lineage share blind spots. The cross-checker needs to be good enough to catch drift, not good enough to be trusted alone. Cross-lineage agreement converts residual extraction bias from an unknown into a measured, gated quantity.
 **Fail mode:** Disagreements are never silently resolved. They are flagged.
 
 ## Step 5: Schema validation

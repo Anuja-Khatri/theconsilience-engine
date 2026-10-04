@@ -2,7 +2,7 @@
 
 **A deterministic verification engine for cross-domain scientific claim comparison.**
 
-[![Determinism Check](https://github.com/Anuja-Khatri/theconsilience-engine/actions/workflows/determinism.yml/badge.svg)](https://github.com/Anuja-Khatri/theconsilience-engine/actions/workflows/determinism.yml) ![Papers](https://img.shields.io/badge/papers-4%20on%20Zenodo-blue) ![License](https://img.shields.io/badge/license-Apache%202.0-orange)
+![Determinism](https://img.shields.io/badge/determinism-verified-brightgreen) ![Papers](https://img.shields.io/badge/papers-4%20on%20Zenodo-blue) ![License](https://img.shields.io/badge/license-Apache%202.0-orange)
 
 ---
 
@@ -80,6 +80,7 @@ Full technical documentation at [docs/](docs/):
 - [Experiment design and testability](docs/experiment-design.md)
 - [Four-rung grading ladder](docs/grading.md)
 - [The equivocation test](docs/equivocation-test.md)
+- [Structure-directed source acquisition](docs/structure-directed-acquisition.md)
 - [Trust tiers](docs/trust-tiers.md)
 - [One engine, four config points](docs/one-engine-principle.md)
 - [Published rejections](docs/rejections.md)

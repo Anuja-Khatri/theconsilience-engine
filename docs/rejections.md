@@ -26,4 +26,9 @@ That is inspectable. That is auditable. That is what no other tool provides.
 
 Other tools optimise for recall: show as many connections as possible. Consilience optimises for precision: show only the connections that survive structural verification.
 
-This is a deliberate product decision. The buyer who cares about precision (a researcher, a biopharma CSO, an investor doing diligence) is different from the buyer who cares about recall (a student brainstorming). Consilience is built for the first buyer.
+This is a deliberate design decision. Researchers who have been burned by false positives, who need to trust that a claimed correspondence is real before committing years of work to testing it, need precision over recall. Consilience is built for that researcher.
+
+## Published counts
+
+- **Consciousness demo (IIT x GNWT pair):** 21 published rejections
+- **Physics workspace (81 sources across 7 domains):** 162 published rejections
