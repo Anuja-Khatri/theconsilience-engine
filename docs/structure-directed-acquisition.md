@@ -1,6 +1,6 @@
 # Structure-Directed Source Acquisition
 
-The engine's most differentiating capability and the one no other system has: the engine discovers its own sources by searching for structural patterns, not topics.
+The engine discovers its own sources by searching for structural patterns, not topics.
 
 ## The problem with manual source selection
 
@@ -50,6 +50,6 @@ In the physics demo, a post-build literature audit found that most engine-discov
 
 ## Why this matters
 
-No other AI-for-science tool does this. Literature search tools find papers by topic keywords. The engine searches for papers by structural pattern. It can find that a developmental biology paper from 2003 structurally matches a 2,000-year-old philosophical text because both describe the same fixed ordered emergence cascade, and it can find this without anyone telling it to look at developmental biology.
+Literature search tools typically find papers by topic keywords. The engine searches for papers by structural pattern. It can find that a developmental biology paper from 2003 structurally matches a 2,000-year-old philosophical text because both describe the same fixed ordered emergence cascade, and it can find this without anyone telling it to look at developmental biology.
 
 The lag between when a structural correspondence exists in the literature and when someone notices it is measured in decades. This capability exists to close that lag.
