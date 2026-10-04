@@ -86,7 +86,7 @@ Full technical documentation at [docs/](docs/):
 - [Published rejections](docs/rejections.md)
 - [Validation results](docs/validation.md)
 - [Historical breakthrough examples](docs/breakthroughs.md)
-- [Adjacent tools and how Consilience differs](docs/adjacents.md)
+- [Related systems](docs/adjacents.md)
 - [Production infrastructure](docs/infrastructure.md)
 
 ## Build provenance

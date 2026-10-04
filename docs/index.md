@@ -40,7 +40,7 @@ A deterministic verification engine for cross-domain scientific claim comparison
 
 ### Context
 - [Historical breakthrough examples](breakthroughs.md)
-- [Adjacent tools and how Consilience differs](adjacents.md)
+- [Related systems](adjacents.md)
 - [Published papers](papers.md)
 
 ---
