@@ -27,7 +27,7 @@ Every step: what goes in, what comes out, what can fail.
 **In:** Claim cards from Step 3.
 **Tool:** Claude Haiku (cheapest tier) independently re-extracts the same passage. Its job is binary: does the independent re-derivation agree with the primary extraction's typing?
 **Out:** Agreement or disagreement on structural fields. Agreed claims proceed. Disagreements flagged for human review regardless of which model is right.
-**Why:** Models from the same training lineage share blind spots. The cross-checker needs to be good enough to catch drift, not good enough to be trusted alone. Cross-lineage agreement converts residual extraction bias from an unknown into a measured, gated quantity.
+**Why:** Models from the same training lineage share blind spots. The cross-checker needs to be good enough to catch drift, not good enough to be trusted alone. Cross-lineage agreement converts residual extraction bias from an unknown into a measured, gated quantity. A second model independently re-derives entity type, axis and polarity for every claim; in the validated build this is Claude Haiku. A different training family checker is the design target.
 **Fail mode:** Disagreements are never silently resolved. They are flagged.
 
 ## Step 5: Schema validation

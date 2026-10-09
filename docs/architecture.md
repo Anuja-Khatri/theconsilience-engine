@@ -38,7 +38,7 @@ Kambhampati's data showed autonomous LLM plans are correct roughly 12% of the ti
 Between the model's extraction output and any published verdict, five gates must pass:
 
 1. **Schema validation.** Pydantic enforces that every extracted claim has all required fields with correct types. Malformed output is rejected and retried twice, then flagged.
-2. **Cross-model agreement.** A second model of different training lineage independently re-extracts the same passage. Structural agreement required. Disagreements flagged for human review, never silently passed.
+2. **Cross-model agreement.** A second model independently re-derives entity type, axis and polarity for every claim; in the validated build this is Claude Haiku. A different training family checker is the design target. Structural agreement required. Disagreements flagged for human review, never silently passed.
 3. **Adversarial calibration.** The calibration set contains deliberately convincing fakes. The system's detection rate on known fakes is measured and reported.
 4. **Human review.** Every claim reviewed by a human before it counts in public output. Approvals stamp the record.
 5. **Trust tier labelling.** Every published claim carries a tier label (Tier A signed, Tier B machine-extracted, User-amended). Nothing unlabelled ships.
