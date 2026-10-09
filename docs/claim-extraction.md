@@ -28,7 +28,7 @@ Extraction reads. It does not judge, grade, compare, or match. The model's job e
 
 ## Cross-model agreement
 
-Every claim card destined for matching is independently re-extracted by a second model of different training lineage. Structural agreement on the typed fields is required before a claim is match-eligible. Disagreements are flagged for human review, never silently passed.
+A second model independently re-derives entity type, axis and polarity for every claim; in the validated build this is Claude Haiku. A different training family checker is the design target. Structural agreement on the typed fields is required before a claim is match-eligible. Disagreements are flagged for human review, never silently passed.
 
 Why different lineage: models from the same training family share systematic blind spots. A claim that two same-family models agree on could reflect a shared bias rather than genuine accuracy. Different lineage makes agreement more meaningful.
 

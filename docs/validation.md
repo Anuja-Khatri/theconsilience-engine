@@ -13,12 +13,14 @@ This is the manual process the engine replaces.
 Running blind, with the expert comparisons held out of its corpus, the engine:
 
 1. Read the published theory papers for both IIT and GNW
-2. Extracted typed claim cards from each (81 approved claims across the full corpus of six theories)
+2. Extracted typed claim cards from each (81 approved claims at the recorded demo, 95 current across six theories)
 3. Built typed directed graphs
 4. Applied deterministic typed matching with neighbourhood support checks
 5. Graded every correspondence and identified every disagreement
 6. Checked each disagreement against the instrument capability map
 7. Published 21 rejections on the IIT x GNW pair with structural reasons
+
+The blind validation demo runs a deterministic rule-based matcher over the typed claims; the VF2 judge in judge/ is the engine's reference implementation and the port target for the demo.
 
 ## The result
 
@@ -31,7 +33,8 @@ It also surfaced one disagreement the experts could not resolve: a substrate-lev
 | Number | What it is |
 |---|---|
 | 6 | Theories in the corpus (IIT, GNWT, Orch-OR, NREP, Active Inference, CEMI) |
-| 81 | Approved claims across the corpus (extraction + cross-check + human oracle review) |
+| 81 | Approved claims at the recorded demo (extraction + cross-check + human oracle review) |
+| 95 | Approved claims current across six theories |
 | 21 | Published rejections on the IIT x GNWT pair, each with structural reason |
 | 761 | Studies in the ConTraSt evidence database (Yaron, Melloni, Pitts & Mudrik, 2022) |
 | 78 | ConTraSt finding-tags approved for the tag mapping (out of 88; 10 omitted rather than guessed) |
