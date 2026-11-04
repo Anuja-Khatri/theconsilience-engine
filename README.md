@@ -47,7 +47,7 @@ The judge is never a language model. Same inputs produce the same output. Verifi
 
 ## Validation
 
-Blind tested against an international adversarial collaboration where eleven laboratories spent nineteen months comparing two theories through expert workshops and travel. The engine recovered two of the three preregistered disagreements exactly and the third partially, from theory texts alone in weeks, and surfaced one disagreement the experts could not resolve.
+Blind tested against the COGITATE adversarial collaboration's preregistered predictions. The engine recovered 2 of 3 after a disclosed re-review (originally 1 of 3). Against a 1000-key permutation null this is p = 0.075, suggestive only. Full numbers: github.com/Anuja-Khatri/consilience-verification.
 
 Two additional demos were built for US institutions whose work is interdisciplinary; one is live as a public physics workspace.
 
