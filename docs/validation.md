@@ -24,7 +24,7 @@ The blind validation demo runs a deterministic rule-based matcher over the typed
 
 ## The result
 
-The engine recovered two of the three preregistered disagreements exactly, and the third partially. The missing component was a threshold negotiated between scientists in a room, absent from every theory's published text. The partial miss is itself the proof of no training leakage: the engine found what was in the papers, not what was decided in the workshop.
+The engine recovered two of the three preregistered disagreements after a disclosed re-review of one card; the original blind result was one of three. Against a 1000-key permutation null this is p = 0.075 — suggestive, not statistically significant. The third disagreement was only partially recovered: it turned on a threshold negotiated between scientists in a room and absent from every theory's published text. That partial miss is consistent with no training leakage — the engine found what was in the papers, not what was decided in the workshop.
 
 It also surfaced one disagreement the experts could not resolve: a substrate-level divergence that the decidability check correctly ruled untestable and attached the specific structural reason (both theories deny a specific property at the substrate level, so functional experiments cannot separate them at that level).
 
@@ -68,4 +68,4 @@ A post-build literature audit reclassified most survivors as blind recoveries of
 
 Most AI-for-science papers evaluate on benchmarks: held-out test sets, accuracy scores, leaderboard positions. This evaluation is different. It tested against a real, preregistered, expert-conducted adversarial collaboration with published results. The experts did not design the evaluation for the engine. The engine was designed to handle the task the experts had already done, blind.
 
-This kind of evaluation is rare. It is also the most honest test available: can the system do what experts do, on the experts' own task, without seeing their answers?
+This kind of evaluation is rare, and demanding: can the system do what experts do, on the experts' own task, without seeing their answers? On this test the result was suggestive rather than conclusive (p = 0.075, small n), and is reported here with its null rather than as a headline accuracy number.
