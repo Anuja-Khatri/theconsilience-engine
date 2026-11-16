@@ -1,5 +1,7 @@
 # Four-Rung Grading Ladder
 
+> **Status.** This page describes the design. VF2 subgraph isomorphism and maximum common subgraph are in development: the published COGITATE result came from a rule-based typed matcher over claim fields, a reference VF2 matcher in `judge/matching/` does not yet report matched edges, and no maximum-common-subgraph code exists yet. See the [README](../README.md#architecture) for what is built.
+
 ## Why scores are dangerous
 
 A number without a ceiling on what it does not license is noise. "Similarity: 0.87" tells you nothing about whether two theories structurally correspond, partially correspond, or merely share vocabulary. Scores invite misuse. Rungs with ceilings prevent it.

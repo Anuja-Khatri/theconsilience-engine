@@ -1,5 +1,7 @@
 # Structural Matching Across Vocabularies (Product Side 2)
 
+> **Status.** This page describes the design. VF2 subgraph isomorphism and maximum common subgraph are in development: the published COGITATE result came from a rule-based typed matcher over claim fields, a reference VF2 matcher in `judge/matching/` does not yet report matched edges, and no maximum-common-subgraph code exists yet. See the [README](../README.md#architecture) for what is built.
+
 ## The problem
 
 Two fields can describe the same structure in completely different words. Temporal difference learning in computer science and dopamine reward prediction error in neuroscience are the same formal structure. Bellman's optimality equations in dynamic programming and Hamilton's equations in classical mechanics describe the same formal structure. In each case, the correspondence took decades to formalise because the vocabularies share nothing.

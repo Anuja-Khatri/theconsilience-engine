@@ -1,5 +1,7 @@
 # Full 14-Step Pipeline
 
+> **Status.** This page describes the design. VF2 subgraph isomorphism and maximum common subgraph are in development: the published COGITATE result came from a rule-based typed matcher over claim fields, a reference VF2 matcher in `judge/matching/` does not yet report matched edges, and no maximum-common-subgraph code exists yet. See the [README](../README.md#architecture) for what is built.
+
 Every step: what goes in, what comes out, what can fail.
 
 ## Step 1: Ingest

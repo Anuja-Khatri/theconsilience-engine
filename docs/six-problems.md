@@ -1,5 +1,7 @@
 # The Six Problems the Architecture Had to Solve
 
+> **Status.** This page describes the design. VF2 subgraph isomorphism and maximum common subgraph are in development: the published COGITATE result came from a rule-based typed matcher over claim fields, a reference VF2 matcher in `judge/matching/` does not yet report matched edges, and no maximum-common-subgraph code exists yet. See the [README](../README.md#architecture) for what is built.
+
 Stated in the June 2026 architecture review. Still the correct decomposition. Every component in the engine maps to one or more of these.
 
 ## 1. Cross-vocabulary matching
