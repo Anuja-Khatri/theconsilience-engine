@@ -1,8 +1,10 @@
 # The Consilience
 
-**A deterministic verification engine for cross-domain scientific claim comparison.**
+**A deterministic verification engine for cross-domain scientific claim comparison.** Part of [The Consilience](https://theconsilience.io), the verification layer for AI-for-science.
 
-[![Determinism](https://github.com/Anuja-Khatri/theconsilience-engine/actions/workflows/determinism.yml/badge.svg)](https://github.com/Anuja-Khatri/theconsilience-engine/actions/workflows/determinism.yml) ![Papers](https://img.shields.io/badge/papers-4%20on%20Zenodo-blue) ![License](https://img.shields.io/badge/license-Apache%202.0-orange)
+> **What this repository is.** The specification, method documentation and papers for the claim-comparison engine. The code in `judge/` is an illustrative reference implementation of the rules, not the production judge. The consolidated judge (one schema, one judge) is in development; the lab-safety and data-validation components that run today live in [lab-gate](https://github.com/Anuja-Khatri/lab-gate) and [consilience-ledger](https://github.com/Anuja-Khatri/consilience-ledger).
+
+[![Determinism](https://github.com/Anuja-Khatri/theconsilience-engine/actions/workflows/determinism.yml/badge.svg)](https://github.com/Anuja-Khatri/theconsilience-engine/actions/workflows/determinism.yml) ![Papers](https://img.shields.io/badge/papers-6%20on%20Zenodo-blue) ![License](https://img.shields.io/badge/license-Apache%202.0-orange)
 
 ---
 
@@ -28,34 +30,37 @@ The Consilience is that verifier.
 
 **Side 1: Claim Extraction and Experiment Design.** The engine reads scientific papers and extracts typed claims with causal direction, physical scale, and exact source sentence. For each disagreement between two frameworks, it checks whether the disagreement is testable with instruments that exist today and generates discriminating experiment sketches with estimated cost, timeline, and falsification criteria.
 
-**Side 2: Cross-Domain Structural Correspondence.** The engine takes two theories from different fields, strips vocabulary, and matches underlying structural commitments using typed subgraph isomorphism. It grades each correspondence on a four-rung ladder with an explicit ceiling on what the match does and does not license. It publishes every rejection with the structural reason the match failed.
+**Side 2: Cross-Domain Structural Correspondence.** The engine takes two theories from different fields and compares their structural commitments rather than their vocabulary. Today the comparison runs on typed fields (axis, polarity, value and stated conditions) with a hard veto on mismatched axes and conditions; typed subgraph isomorphism over claim graphs is the design it is moving to. It grades each correspondence on a four-rung ladder with an explicit ceiling on what the match does and does not license. It records every rejection with the structural reason the match failed.
 
 ## Architecture
 
-Neurosymbolic. Models extract typed claims under schema constraints. Code does all judgment.
+Neurosymbolic. Models extract typed claims under schema constraints. Code does all judgment. Status: **built** = runs in the published results; **in development** = specified, being implemented in the consolidated judge.
 
-- **Typed subgraph isomorphism** (VF2, 2004) for structural matching
-- **Maximum common subgraph** for partial correspondence
+- **Typed field comparison** with a hard veto on mismatched axes and conditions (built)
+- **Typed subgraph isomorphism** (VF2, 2004) for structural matching (in development)
+- **Maximum common subgraph** for partial correspondence (in development)
 - **Newman guard**: typed edge constraints where one mismatched relation type vetoes the entire correspondence
-- **Equivocation removal test**: strip shared vocabulary, re-derive edges from typed graphs, check if structure survives
+- **Equivocation removal test**: strip shared vocabulary, re-derive edges from typed graphs, check if structure survives (in development; a simpler edge-count check runs today)
 - **Four-rung grading ladder** with machine-readable ceilings on what each verdict does not license
 - **Versioned instrument capability map** for testability assessment
-- **Published rejections** with structural reasons attached
+- **Recorded rejections** with structural reasons attached
 - **Content hash verification**: same inputs, same output, every time, on any machine
 
-The judge is never a language model. Same inputs produce the same output. Verifiable by content hash.
+The judge is never a language model. Given the same claim cards, the judge returns the same verdict, verifiable by content hash. Extraction (the model step) is not deterministic: test-retest stability is 0.25 to 0.42, below a 0.70 gate, so a person reviews every claim card.
 
 ## Validation
 
 Blind tested against the COGITATE adversarial collaboration's preregistered predictions. The engine recovered 2 of 3 after a disclosed re-review (originally 1 of 3). Against a 1000-key permutation null this is p = 0.075, suggestive only. Full numbers: github.com/Anuja-Khatri/consilience-verification.
 
-Two additional demos were built for US institutions whose work is interdisciplinary; one is live as a public physics workspace.
+Live demo of the cross-theory comparison: [consilience-demo.netlify.app](https://consilience-demo.netlify.app).
 
 ## Published papers
 
 | Paper | Title | DOI |
 |---|---|---|
-| 1 | Deterministic Verification for Cross-Domain Scientific Claim Comparison | [10.5281/zenodo.23086966](https://zenodo.org/records/23086966) |
+| Flagship | A deterministic, auditable engine for cross-theory claim comparison | [10.5281/zenodo.23672883](https://zenodo.org/records/23672883) |
+| Lab safety | lab-gate: a plan-checking safety gate for autonomous labs, with a preregistered adversarial evaluation | [10.5281/zenodo.23954617](https://zenodo.org/records/23954617) |
+| 1 | Deterministic Verification for Cross-Domain Scientific Claim Comparison (earlier version) | [10.5281/zenodo.23086966](https://zenodo.org/records/23086966) |
 | 2 | Per-Instance Lexical Ablation as a Grading Mechanism | [10.5281/zenodo.23119443](https://zenodo.org/records/23119443) |
 | 3 | Computational Testability Assessment | [10.5281/zenodo.23119362](https://zenodo.org/records/23119362) |
 | 4 | Beyond the Transformer for Scientific Discovery | [10.5281/zenodo.23121190](https://zenodo.org/records/23121190) |
@@ -104,7 +109,7 @@ Full statement: [PROVENANCE.md](PROVENANCE.md)
 ## Author
 
 Anuja Khatri
-hello@theconsilience.io
+anuja@theconsilience.io
 Bangalore, India
 
-Built solo over one year. Physics and statistics background. No institutional affiliation. The work speaks for itself.
+Methods, corrections and null results are published in the open.
