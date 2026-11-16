@@ -1,10 +1,16 @@
 # Published Papers
 
-All four papers are published on Zenodo with permanent DOIs.
+The papers below are published on Zenodo with permanent DOIs. The README's papers table also lists the lab-gate paper.
 
-## Paper 1: Deterministic Verification for Cross-Domain Scientific Claim Comparison
+## Flagship (current): A deterministic, auditable engine for cross-theory claim comparison
 
-The flagship paper. Full architecture description, V1 embedding system case study (6,341 false positives), V2 neurosymbolic rebuild, COGITATE blind test evaluation. Cites Kambhampati's LLM Modulo as the governing pattern.
+The current version of the flagship paper, and the source for the COGITATE result: 2 of 3 preregistered disagreements recovered after a disclosed re-review (originally 1 of 3), p = 0.075 against a 1,000-key permutation null, suggestive only.
+
+**DOI:** [10.5281/zenodo.23672883](https://zenodo.org/records/23672883)
+
+## Paper 1: Deterministic Verification for Cross-Domain Scientific Claim Comparison (earlier version)
+
+The earlier version of the flagship paper; superseded by 10.5281/zenodo.23672883 above. Full architecture description, V1 embedding system case study (6,341 false positives), V2 neurosymbolic rebuild, COGITATE blind test evaluation. Cites Kambhampati's LLM Modulo as the governing pattern.
 
 **DOI:** [10.5281/zenodo.23086966](https://zenodo.org/records/23086966)
 
