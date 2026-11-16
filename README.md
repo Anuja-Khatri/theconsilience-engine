@@ -28,31 +28,45 @@ The Consilience is that verifier.
 
 ## Two product sides
 
-**Side 1: Claim Extraction and Experiment Design.** The engine reads scientific papers and extracts typed claims with causal direction, physical scale, and exact source sentence. For each disagreement between two frameworks, it checks whether the disagreement is testable with instruments that exist today and generates discriminating experiment sketches with estimated cost, timeline, and falsification criteria.
+**Side 1: Claim Extraction and Experiment Design.** Typed claims (causal direction, physical scale, exact source sentence) are drafted from scientific papers by a model and reviewed by a person before the judge sees them. No extraction code is in this repository. For each disagreement between two frameworks, the judge checks whether the disagreement is testable with instruments that exist today; the published demo also produced experiment sketches with estimated cost, timeline and falsification criteria.
 
 **Side 2: Cross-Domain Structural Correspondence.** The engine takes two theories from different fields and compares their structural commitments rather than their vocabulary. Today the comparison runs on typed fields (axis, polarity, value and stated conditions) with a hard veto on mismatched axes and conditions; typed subgraph isomorphism over claim graphs is the design it is moving to. It grades each correspondence on a four-rung ladder with an explicit ceiling on what the match does and does not license. It records every rejection with the structural reason the match failed.
 
 ## Architecture
 
-Neurosymbolic. Models extract typed claims under schema constraints. Code does all judgment. Status: **built** = runs in the published results; **in development** = specified, being implemented in the consolidated judge.
+Neurosymbolic. Models draft typed claims under schema constraints; a person reviews them; code does all judgment. Status: **built** = runs in the published results; **reference code** = in `judge/` here, tested, but not what produced the published results; **in development** = specified, not yet implemented.
 
-- **Typed field comparison** with a hard veto on mismatched axes and conditions (built)
-- **Typed subgraph isomorphism** (VF2, 2004) for structural matching (in development)
-- **Maximum common subgraph** for partial correspondence (in development)
-- **Newman guard**: typed edge constraints where one mismatched relation type vetoes the entire correspondence
-- **Equivocation removal test**: strip shared vocabulary, re-derive edges from typed graphs, check if structure survives (in development; a simpler edge-count check runs today)
-- **Four-rung grading ladder** with machine-readable ceilings on what each verdict does not license
-- **Versioned instrument capability map** for testability assessment
-- **Recorded rejections** with structural reasons attached
-- **Content hash verification**: same inputs, same output, every time, on any machine
+- **Rule-based typed matcher** over typed claim fields (axis, polarity, value, stated conditions) with a hard veto on mismatched axes and conditions (built; this is the matcher behind the COGITATE result; it is not in this repository — a public version of the field comparison is in [consilience-ledger](https://github.com/Anuja-Khatri/consilience-ledger))
+- **Four-rung grading ladder** with a ceiling statement on what each rung does not license (reference code: `judge/grading/`)
+- **Equivocation check**: remove the nodes that carry a shared term from both graphs and count the edges left; zero edges on either side marks the correspondence vocabulary-dependent (reference code: `judge/equivocation/`). Re-deriving edges from the typed graphs after stripping is in development
+- **Versioned instrument capability map lookup** for testability: testable now, testable under a named assumption, or not testable with a reason (reference code: `judge/testability/`)
+- **Content hash** over each verdict, so two runs can be compared (reference code: `judge/hash/`)
+- **Typed subgraph isomorphism** (VF2, 2004) with typed node and edge constraints, where one mismatched relation type vetoes the match (the Newman guard) (in development; a reference matcher is in `judge/matching/`, but it does not yet report matched edges, a known defect pinned in the tests)
+- **Maximum common subgraph** for partial correspondence (in development; no code yet. The grading ladder takes an `mcs_ratio` argument, but nothing here computes it)
+- **Recorded rejections** with structural reasons attached (built in the published demo; not in this repository)
 
-The judge is never a language model. Given the same claim cards, the judge returns the same verdict, verifiable by content hash. Extraction (the model step) is not deterministic: test-retest stability is 0.25 to 0.42, below a 0.70 gate, so a person reviews every claim card.
+The judge is never a language model. Given the same claim cards, the judge is designed to return the same verdict, checkable by content hash; the tests run the reference code in separate processes and compare the output byte for byte. Extraction (the model step) is not deterministic: test-retest stability is 0.25 to 0.42, below a 0.70 gate, so a person reviews every claim card.
 
 ## Validation
 
-Blind tested against the COGITATE adversarial collaboration's preregistered predictions. The engine recovered 2 of 3 after a disclosed re-review (originally 1 of 3). Against a 1000-key permutation null this is p = 0.075, suggestive only. Full numbers: github.com/Anuja-Khatri/consilience-verification.
+Blind tested against the COGITATE adversarial collaboration's preregistered predictions, using the rule-based typed matcher (not the reference VF2 code in `judge/`). The engine recovered 2 of 3 preregistered disagreements after a disclosed re-review (originally 1 of 3). Against a 1,000-key permutation null this is p = 0.075, suggestive only. Method and full numbers: the flagship paper, [10.5281/zenodo.23672883](https://zenodo.org/records/23672883), and [docs/validation.md](docs/validation.md).
 
 Live demo of the cross-theory comparison: [consilience-demo.netlify.app](https://consilience-demo.netlify.app).
+
+## Running the tests
+
+Needs Python 3.10 or later.
+
+```bash
+git clone https://github.com/Anuja-Khatri/theconsilience-engine.git
+cd theconsilience-engine
+python -m venv .venv && . .venv/bin/activate
+pip install -r requirements.txt
+python -m pytest -q tests
+python examples/determinism-demo/run_demo.py
+```
+
+The suite covers the reference judge code in `judge/`: the grading ladder, the equivocation check (including a byte-identical output check across processes), the reference VF2 matcher, the capability-map lookup and the verdict hash. It does not reproduce the COGITATE result; that ran on the rule-based matcher described above.
 
 ## Published papers
 
