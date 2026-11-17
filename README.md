@@ -51,7 +51,7 @@ The judge is never a language model. Given the same claim cards, the judge is de
 
 Blind tested against the COGITATE adversarial collaboration's preregistered predictions, using the rule-based typed matcher (not the reference VF2 code in `judge/`). The engine recovered 2 of 3 preregistered disagreements after a disclosed re-review (originally 1 of 3). Against a 1,000-key permutation null this is p = 0.075, suggestive only. Method and full numbers: the flagship paper, [10.5281/zenodo.23672883](https://zenodo.org/records/23672883), and [docs/validation.md](docs/validation.md).
 
-Live demo of the cross-theory comparison: [consilience-demo.netlify.app](https://consilience-demo.netlify.app).
+Live demo of the cross-theory comparison: [consilience-demo.netlify.app](https://consilience-demo.netlify.app). Its IIT x GNWT and IIT x Orch-OR results are pinned here as receipts, with hashes: [results/demo/](results/demo/README.md).
 
 ## Running the tests
 

@@ -1,0 +1,227 @@
+{
+  "pair": "IITxGNWT",
+  "n_forks": 14,
+  "verdicts": [
+    {
+      "fork_ref": "IITxGNWT:substrate_dependence:c002xc012",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "no shared observable at current technology",
+      "axis": "substrate_dependence",
+      "left_id": "iit_c002",
+      "right_id": "gnwt_c012",
+      "left_value": "substrate_dependent",
+      "right_value": "neuroanatomically_grounded",
+      "f_id": "F4"
+    },
+    {
+      "fork_ref": "IITxGNWT:substrate_dependence:c002xn011",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "no shared observable at current technology",
+      "axis": "substrate_dependence",
+      "left_id": "iit_c002",
+      "right_id": "gnwt_n011",
+      "left_value": "substrate_dependent",
+      "right_value": "substrate_independent",
+      "f_id": "F4"
+    },
+    {
+      "fork_ref": "IITxGNWT:locus:c010xc003",
+      "decidability": "now",
+      "shared_observables": [
+        "regional_decoding"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['regional_decoding'] at equal scale (brain_network)",
+      "axis": "locus",
+      "left_id": "iit_c010",
+      "right_id": "gnwt_c003",
+      "left_value": "single_maximal_complex",
+      "right_value": "prefrontal_parietal_cortical_network",
+      "f_id": "F1"
+    },
+    {
+      "fork_ref": "IITxGNWT:connectivity:c025xc008",
+      "decidability": "now",
+      "shared_observables": [
+        "connectivity_metrics"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['connectivity_metrics'] at equal scale (brain_network)",
+      "axis": "connectivity",
+      "left_id": "iit_c025",
+      "right_id": "gnwt_c008",
+      "left_value": "heterogeneous_connectivity_required",
+      "right_value": "global_workspace_connectivity_required",
+      "f_id": "F3"
+    },
+    {
+      "fork_ref": "IITxGNWT:observable_commitment:n005xc004",
+      "decidability": "now",
+      "shared_observables": [
+        "connectivity_metrics",
+        "ignition_signature",
+        "regional_decoding",
+        "temporal_generalization"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['connectivity_metrics', 'ignition_signature', 'regional_decoding', 'temporal_generalization'] at equal scale (brain_network)",
+      "axis": "observable_commitment",
+      "left_id": "iit_n005",
+      "right_id": "gnwt_c004",
+      "left_value": "empirically_measurable_via_causal_perturbation",
+      "right_value": "access_consciousness_primary",
+      "f_id": "BEYOND"
+    },
+    {
+      "fork_ref": "IITxGNWT:observable_commitment:n005xc022",
+      "decidability": "now",
+      "shared_observables": [
+        "connectivity_metrics",
+        "ignition_signature",
+        "regional_decoding",
+        "temporal_generalization"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['connectivity_metrics', 'ignition_signature', 'regional_decoding', 'temporal_generalization'] at equal scale (brain_network)",
+      "axis": "observable_commitment",
+      "left_id": "iit_n005",
+      "right_id": "gnwt_c022",
+      "left_value": "empirically_measurable_via_causal_perturbation",
+      "right_value": "neural_correlates_of_conscious_access",
+      "f_id": "BEYOND"
+    },
+    {
+      "fork_ref": "IITxGNWT:locus:n007xc003",
+      "decidability": "now",
+      "shared_observables": [
+        "regional_decoding"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['regional_decoding'] at equal scale (brain_network)",
+      "axis": "locus",
+      "left_id": "iit_n007",
+      "right_id": "gnwt_c003",
+      "left_value": "maximal_irreducible_complex",
+      "right_value": "prefrontal_parietal_cortical_network",
+      "f_id": "F1"
+    },
+    {
+      "fork_ref": "IITxGNWT:locus:n013xc003",
+      "decidability": "now",
+      "shared_observables": [
+        "regional_decoding"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['regional_decoding'] at equal scale (brain_network)",
+      "axis": "locus",
+      "left_id": "iit_n013",
+      "right_id": "gnwt_c003",
+      "left_value": "intrinsic_not_broadcast",
+      "right_value": "prefrontal_parietal_cortical_network",
+      "f_id": "F1"
+    },
+    {
+      "fork_ref": "IITxGNWT:observable_commitment:t001xc004",
+      "decidability": "now",
+      "shared_observables": [
+        "connectivity_metrics",
+        "ignition_signature",
+        "regional_decoding",
+        "temporal_generalization"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['connectivity_metrics', 'ignition_signature', 'regional_decoding', 'temporal_generalization'] at equal scale (brain_network)",
+      "axis": "observable_commitment",
+      "left_id": "iit_t001",
+      "right_id": "gnwt_c004",
+      "left_value": "perturbational_complexity_index",
+      "right_value": "access_consciousness_primary",
+      "f_id": "BEYOND"
+    },
+    {
+      "fork_ref": "IITxGNWT:observable_commitment:t001xc022",
+      "decidability": "now",
+      "shared_observables": [
+        "connectivity_metrics",
+        "ignition_signature",
+        "regional_decoding",
+        "temporal_generalization"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['connectivity_metrics', 'ignition_signature', 'regional_decoding', 'temporal_generalization'] at equal scale (brain_network)",
+      "axis": "observable_commitment",
+      "left_id": "iit_t001",
+      "right_id": "gnwt_c022",
+      "left_value": "perturbational_complexity_index",
+      "right_value": "neural_correlates_of_conscious_access",
+      "f_id": "BEYOND"
+    },
+    {
+      "fork_ref": "IITxGNWT:locus:t002xc003",
+      "decidability": "now",
+      "shared_observables": [
+        "regional_decoding"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['regional_decoding'] at equal scale (brain_network)",
+      "axis": "locus",
+      "left_id": "iit_t002",
+      "right_id": "gnwt_c003",
+      "left_value": "posterior_hot_zone",
+      "right_value": "prefrontal_parietal_cortical_network",
+      "f_id": "F1"
+    },
+    {
+      "fork_ref": "IITxGNWT:temporal_profile:t003xc018",
+      "decidability": "now",
+      "shared_observables": [
+        "ignition_signature",
+        "temporal_generalization"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['ignition_signature', 'temporal_generalization'] at equal scale (brain_network)",
+      "axis": "temporal_profile",
+      "left_id": "iit_t003",
+      "right_id": "gnwt_c018",
+      "left_value": "sustained_maintenance",
+      "right_value": "late_onset_threshold",
+      "f_id": "F2"
+    },
+    {
+      "fork_ref": "IITxGNWT:temporal_profile:t003xc025",
+      "decidability": "now",
+      "shared_observables": [
+        "ignition_signature",
+        "temporal_generalization"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['ignition_signature', 'temporal_generalization'] at equal scale (brain_network)",
+      "axis": "temporal_profile",
+      "left_id": "iit_t003",
+      "right_id": "gnwt_c025",
+      "left_value": "sustained_maintenance",
+      "right_value": "gradual_buildup",
+      "f_id": "F2"
+    },
+    {
+      "fork_ref": "IITxGNWT:temporal_profile:t003xn013",
+      "decidability": "now",
+      "shared_observables": [
+        "ignition_signature",
+        "temporal_generalization"
+      ],
+      "bridge_note": null,
+      "rationale": "shared observable(s) ['ignition_signature', 'temporal_generalization'] at equal scale (brain_network)",
+      "axis": "temporal_profile",
+      "left_id": "iit_t003",
+      "right_id": "gnwt_n013",
+      "left_value": "sustained_maintenance",
+      "right_value": "serial_all_or_none",
+      "f_id": "F2"
+    }
+  ]
+}

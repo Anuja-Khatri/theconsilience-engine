@@ -1,0 +1,13 @@
+{
+  "corpus_hash": "ccc6db4ceb29",
+  "generated_at": "2026-08-13T10:59Z",
+  "holdout_check": "PASS",
+  "regen_note": "regenerated from corpus by the pipeline (D2 extraction is the only LLM step; graphs/judge/decidability are deterministic)",
+  "pairs": [
+    "iitxgnwt",
+    "iitxorch-or"
+  ],
+  "tests": "26 passed",
+  "regen_seconds": 7,
+  "regen_wall": "7s"
+}

@@ -1,0 +1,2476 @@
+{
+  "pair": "iitxgnwt",
+  "left": {
+    "slug": "iit",
+    "theory": "IIT",
+    "nodes": [
+      {
+        "claim_id": "iit_c001",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "experience_equals_phi_structure",
+        "polarity": "asserts",
+        "statement": "An experience is identical to the cause–effect structure (Φ-structure) unfolded from a maximal substrate; quality and quantity of experience are completely specified by the MICS and Φ value.",
+        "passage_ids": [
+          "iit_3_0_0001",
+          "iit_3_0_0018",
+          "iit_3_0_0102",
+          "iit_3_0_0133",
+          "iit_3_0_0134",
+          "iit_3_0_0135",
+          "iit_3_0_0136",
+          "iit_4_0_0013",
+          "iit_4_0_0038",
+          "iit_4_0_0170",
+          "iit_nrn_2016_0004",
+          "iit_nrn_2016_0012",
+          "iit_nrn_2016_0014",
+          "iit_nrn_2016_0028",
+          "iit_nrn_2016_0120",
+          "iit_nrn_2016_0124"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_3_0_0001",
+            "locator": "p.1"
+          },
+          {
+            "id": "iit_3_0_0018",
+            "locator": "p.2"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c002",
+        "theory": "IIT",
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "value": "substrate_dependent",
+        "polarity": "asserts",
+        "statement": "Consciousness requires intrinsic, integrated, irreducible cause–effect power within the substrate itself, independent of any external observer.",
+        "passage_ids": [
+          "iit_3_0_0001",
+          "iit_3_0_0022",
+          "iit_3_0_0027",
+          "iit_3_0_0041",
+          "iit_3_0_0092",
+          "iit_3_0_0116",
+          "iit_3_0_0134",
+          "iit_3_0_0135",
+          "iit_3_0_0139",
+          "iit_4_0_0013",
+          "iit_4_0_0034",
+          "iit_4_0_0036",
+          "iit_4_0_0054",
+          "iit_4_0_0170",
+          "iit_4_0_0222",
+          "iit_4_0_0223",
+          "iit_4_0_0237",
+          "iit_4_0_0238",
+          "iit_nrn_2016_0005",
+          "iit_nrn_2016_0006"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_3_0_0001",
+            "locator": "p.1"
+          },
+          {
+            "id": "iit_3_0_0022",
+            "locator": "p.2"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c003",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "computability",
+        "value": "computable",
+        "polarity": "denies",
+        "statement": "A feed-forward system functionally equivalent to a conscious complex is not conscious, because functional equivalence without intrinsic integrated information is insufficient for experience.",
+        "passage_ids": [
+          "iit_3_0_0018"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_3_0_0018",
+            "locator": "p.2"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c004",
+        "theory": "IIT",
+        "entity_type": "state",
+        "axis": "mechanism",
+        "value": "phi_structure_state_dependent",
+        "polarity": "asserts",
+        "statement": "The physical correlate of consciousness is the Φ-structure specified by the substrate in its current state, not the substrate per se; minor state changes can cause major changes in the Φ-structure and thus in experience.",
+        "passage_ids": [
+          "iit_4_0_0202",
+          "iit_4_0_0229"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_4_0_0202",
+            "locator": "p.34"
+          },
+          {
+            "id": "iit_4_0_0229",
+            "locator": "p.39"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c005",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "explanatory_identity_phenomenal_causal",
+        "polarity": "asserts",
+        "statement": "Every property of an experience is identical to a property of the cause–effect structure specified by a substrate satisfying IIT's postulates; the identity is between intrinsic (subjective) and extrinsic (objective) existence, not between two substances.",
+        "passage_ids": [
+          "iit_3_0_0034",
+          "iit_3_0_0035",
+          "iit_4_0_0227",
+          "iit_nrn_2016_0003",
+          "iit_nrn_2016_0013"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_3_0_0034",
+            "locator": "p.3"
+          },
+          {
+            "id": "iit_3_0_0035",
+            "locator": "p.3"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c006",
+        "theory": "IIT",
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "value": "maximal_integrated_information",
+        "polarity": "asserts",
+        "statement": "The maximally irreducible conceptual structure (MICS) generated by a complex is identical to its experience; its quantity is specified by Φ-max (integrated information).",
+        "passage_ids": [
+          "iit_3_0_0034",
+          "iit_3_0_0035",
+          "iit_3_0_0085",
+          "iit_3_0_0102",
+          "iit_3_0_0116",
+          "iit_3_0_0133",
+          "iit_3_0_0134",
+          "iit_3_0_0139",
+          "iit_4_0_0002",
+          "iit_4_0_0046",
+          "iit_nrn_2016_0012",
+          "iit_nrn_2016_0020",
+          "iit_nrn_2016_0024",
+          "iit_nrn_2016_0037",
+          "iit_nrn_2016_0040",
+          "iit_nrn_2016_0092",
+          "iit_nrn_2016_0093"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_3_0_0034",
+            "locator": "p.3"
+          },
+          {
+            "id": "iit_3_0_0035",
+            "locator": "p.3"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c007",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "value": "irreducible_integrated_information_required",
+        "polarity": "asserts",
+        "statement": "Only mechanisms that specify integrated information—information generated by the whole above and beyond its parts, making it irreducible—can contribute to consciousness.",
+        "passage_ids": [
+          "iit_3_0_0029",
+          "iit_3_0_0030",
+          "iit_3_0_0038",
+          "iit_3_0_0046",
+          "iit_3_0_0084",
+          "iit_3_0_0085",
+          "iit_4_0_0207",
+          "iit_4_0_0223",
+          "iit_nrn_2016_0022",
+          "iit_nrn_2016_0023",
+          "iit_nrn_2016_0024",
+          "iit_nrn_2016_0025",
+          "iit_nrn_2016_0123",
+          "iit_nrn_2016_0124"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_3_0_0029",
+            "locator": "p.3"
+          },
+          {
+            "id": "iit_3_0_0030",
+            "locator": "p.3"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c010",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "locus",
+        "value": "single_maximal_complex",
+        "polarity": "asserts",
+        "statement": "The exclusion postulate restricts the locus of consciousness to a single maximally irreducible system (complex), not any subset or superset.",
+        "passage_ids": [
+          "iit_3_0_0031",
+          "iit_3_0_0103",
+          "iit_3_0_0133"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_3_0_0031",
+            "locator": "p.3"
+          },
+          {
+            "id": "iit_3_0_0103",
+            "locator": "p.10"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c012",
+        "theory": "IIT",
+        "entity_type": "emergent_property",
+        "axis": "identity_relation",
+        "value": "phi_structure_equals_experience",
+        "polarity": "asserts",
+        "statement": "The quality of experience corresponds to the Φ-structure (cause–effect structure of distinctions and relations), and the quantity of experience corresponds to Φ, the sum of integrated information of distinctions and relations.",
+        "passage_ids": [
+          "iit_4_0_0047",
+          "iit_4_0_0048",
+          "iit_4_0_0166",
+          "iit_4_0_0194",
+          "iit_4_0_0239",
+          "iit_4_0_0242",
+          "iit_nrn_2016_0019"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_4_0_0047",
+            "locator": "p.7"
+          },
+          {
+            "id": "iit_4_0_0048",
+            "locator": "p.7"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c013",
+        "theory": "IIT",
+        "entity_type": "observer",
+        "axis": "fundamentality",
+        "value": "intrinsic_perspective_primary",
+        "polarity": "asserts",
+        "statement": "Existence and consciousness must be evaluated from the intrinsic perspective of the entity itself, not from the perspective of an external observer.",
+        "passage_ids": [
+          "iit_4_0_0049"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_4_0_0049",
+            "locator": "p.7"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c016",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "architecture",
+        "value": "integrated_irreducible",
+        "polarity": "asserts",
+        "statement": "Experience is unified and irreducible to non-interdependent components; integration is an axiomatic property of every experience.",
+        "passage_ids": [
+          "iit_3_0_0000",
+          "iit_4_0_0222"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_3_0_0000",
+            "locator": "p.1"
+          },
+          {
+            "id": "iit_4_0_0222",
+            "locator": "p.38"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c023",
+        "theory": "IIT",
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "value": "nonzero_integrated_information",
+        "polarity": "asserts",
+        "statement": "Mechanisms that do not generate integrated information do not exist from the intrinsic perspective of a system; integrated information is the threshold condition for causal/experiential existence.",
+        "passage_ids": [
+          "iit_3_0_0087"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_3_0_0087",
+            "locator": "p.8"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_c025",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "connectivity",
+        "value": "heterogeneous_connectivity_required",
+        "polarity": "asserts",
+        "statement": "The richness and level of consciousness increase with the diversity and specialization of causal connections; homogeneous connectivity reduces consciousness.",
+        "passage_ids": [
+          "iit_3_0_0161",
+          "iit_3_0_0167"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_3_0_0161",
+            "locator": "p.17"
+          },
+          {
+            "id": "iit_3_0_0167",
+            "locator": "p.17"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_n002",
+        "theory": "IIT",
+        "entity_type": "substrate",
+        "axis": "computability",
+        "value": "computable",
+        "polarity": "denies",
+        "statement": "Digital computers running von Neumann architectures are not conscious even if they simulate cognition; the architecture of the substrate determines consciousness.",
+        "passage_ids": [
+          "iit_nrn_2016_0162"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0162",
+            "locator": "p.11"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_n005",
+        "theory": "IIT",
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "value": "empirically_measurable_via_causal_perturbation",
+        "polarity": "asserts",
+        "statement": "The physical substrate of consciousness has a definite spatial grain, timescale, and state-space determined by maxima of cause–effect power, identifiable empirically via perturbation and observation.",
+        "passage_ids": [
+          "iit_nrn_2016_0068",
+          "iit_nrn_2016_0079"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0068",
+            "locator": "p.6"
+          },
+          {
+            "id": "iit_nrn_2016_0079",
+            "locator": "p.7"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_n006",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "value": "requires_integrated_recurrent_architecture",
+        "polarity": "asserts",
+        "statement": "High Φmax (and thus consciousness) requires convergent-divergent integration; feedforward, modular architectures like the cerebellum cannot form a large complex and are excluded from the conscious substrate.",
+        "passage_ids": [
+          "iit_nrn_2016_0098"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0098",
+            "locator": "p.9"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_n007",
+        "theory": "IIT",
+        "entity_type": "boundary",
+        "axis": "locus",
+        "value": "maximal_irreducible_complex",
+        "polarity": "asserts",
+        "statement": "The PSC is a bounded complex of elements with maximal integrated information; elements outside this boundary (e.g., cerebellar neurons, peripheral sensory/motor pathways, basal ganglia loops) do not directly contribute to consciousness despite influencing cortical activity.",
+        "passage_ids": [
+          "iit_nrn_2016_0099",
+          "iit_nrn_2016_0015",
+          "iit_nrn_2016_0105"
+        ],
+        "agreement": true,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0099",
+            "locator": "p.9"
+          },
+          {
+            "id": "iit_nrn_2016_0015",
+            "locator": "p.2"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_n013",
+        "theory": "IIT",
+        "entity_type": "process",
+        "axis": "locus",
+        "value": "intrinsic_not_broadcast",
+        "polarity": "asserts",
+        "statement": "Conscious information is not transmitted or broadcast from one brain region to another; the locus of consciousness is intrinsic to the PSC, not a relay or global broadcast.",
+        "passage_ids": [
+          "iit_nrn_2016_0096",
+          "iit_nrn_2016_0094"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0096",
+            "locator": "p.8"
+          },
+          {
+            "id": "iit_nrn_2016_0094",
+            "locator": "p.8"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_n015",
+        "theory": "IIT",
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "value": "integration_breakdown",
+        "polarity": "asserts",
+        "statement": "Consciousness fades when bistability causes breakdown of information integration despite ongoing neural activity, establishing a functional threshold for consciousness tied to integration capacity.",
+        "passage_ids": [
+          "iit_nrn_2016_0100"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0100",
+            "locator": "p.9"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_n022",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "fundamentality",
+        "value": "integrated_information_as_fundamental",
+        "polarity": "asserts",
+        "statement": "Consciousness corresponds to integrated information (Φ) that is irreducible to that specified by a system's parts; the quality of experience maps to the form of the conceptual structure specified by the PSC.",
+        "passage_ids": [
+          "iit_nrn_2016_0035",
+          "iit_nrn_2016_0039"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0035",
+            "locator": "p.3"
+          },
+          {
+            "id": "iit_nrn_2016_0039",
+            "locator": "p.4"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_n023",
+        "theory": "IIT",
+        "entity_type": "process",
+        "axis": "mechanism_scale",
+        "value": "mesoscale_spatiotemporal_grain",
+        "polarity": "asserts",
+        "statement": "The PSC operates at a definite spatio-temporal grain (local cortical neuron groups over ~100 ms intervals); perturbations at the appropriate grain change experience, fixing the mechanism scale of consciousness.",
+        "passage_ids": [
+          "iit_nrn_2016_0026",
+          "iit_nrn_2016_0035",
+          "iit_nrn_2016_0044",
+          "iit_nrn_2016_0054",
+          "iit_nrn_2016_0055",
+          "iit_nrn_2016_0057",
+          "iit_nrn_2016_0058",
+          "iit_nrn_2016_0110"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0026",
+            "locator": "p.3"
+          },
+          {
+            "id": "iit_nrn_2016_0035",
+            "locator": "p.3"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_t001",
+        "theory": "IIT",
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "value": "perturbational_complexity_index",
+        "polarity": "asserts",
+        "statement": "IIT predicts that loss and recovery of consciousness is associated with breakdown and recovery of information integration capacity, measurable via the perturbational complexity index (PCI) derived from TMS-EEG responses.",
+        "passage_ids": [
+          "iit_nrn_2016_0068",
+          "iit_nrn_2016_0071",
+          "iit_nrn_2016_0072",
+          "iit_nrn_2016_0102",
+          "iit_nrn_2016_0111",
+          "iit_nrn_2016_0112",
+          "iit_nrn_2016_0116"
+        ],
+        "agreement": true,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0068",
+            "locator": "p.6"
+          },
+          {
+            "id": "iit_nrn_2016_0071",
+            "locator": "p.6"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_t002",
+        "theory": "IIT",
+        "entity_type": "substrate",
+        "axis": "locus",
+        "value": "posterior_hot_zone",
+        "polarity": "asserts",
+        "statement": "IIT predicts that the neural substrate of consciousness (PSC/complex) corresponds to elements with maximum intrinsic cause–effect power, locating the content-specific NCC in the neural elements of the PSC rather than in prefrontal or other regions, consistent with a posterior cortical hot zone.",
+        "passage_ids": [
+          "iit_nrn_2016_0001",
+          "iit_nrn_2016_0041",
+          "iit_nrn_2016_0060",
+          "iit_nrn_2016_0061",
+          "iit_nrn_2016_0066",
+          "iit_nrn_2016_0079",
+          "iit_nrn_2016_0098",
+          "iit_nrn_2016_0115",
+          "iit_nrn_2016_0116",
+          "iit_nrn_2016_0162"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0001",
+            "locator": "p.1"
+          },
+          {
+            "id": "iit_nrn_2016_0041",
+            "locator": "p.4"
+          }
+        ]
+      },
+      {
+        "claim_id": "iit_t003",
+        "theory": "IIT",
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "value": "sustained_maintenance",
+        "polarity": "asserts",
+        "statement": "IIT predicts that the duration of a conscious instant is definite and sustained over tens to hundreds of milliseconds, not transient or phasic, as required by the exclusion postulate governing the cause–effect structure of the PSC.",
+        "passage_ids": [
+          "iit_nrn_2016_0026",
+          "iit_nrn_2016_0066",
+          "iit_nrn_2016_0067"
+        ],
+        "agreement": true,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "iit_nrn_2016_0026",
+            "locator": "p.3"
+          },
+          {
+            "id": "iit_nrn_2016_0066",
+            "locator": "p.6"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "src_claim_id": "iit_c004",
+        "dst_claim_id": "iit_n005",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c004",
+        "dst_claim_id": "iit_t001",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c007",
+        "dst_claim_id": "iit_n005",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c007",
+        "dst_claim_id": "iit_t001",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_n013",
+        "dst_claim_id": "iit_n005",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_n013",
+        "dst_claim_id": "iit_t001",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_n023",
+        "dst_claim_id": "iit_n005",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_n023",
+        "dst_claim_id": "iit_t001",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c001",
+        "dst_claim_id": "iit_c004",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c001",
+        "dst_claim_id": "iit_c007",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c001",
+        "dst_claim_id": "iit_n013",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c001",
+        "dst_claim_id": "iit_n023",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c001",
+        "dst_claim_id": "iit_c003",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c001",
+        "dst_claim_id": "iit_c010",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c001",
+        "dst_claim_id": "iit_c025",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c001",
+        "dst_claim_id": "iit_n006",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c005",
+        "dst_claim_id": "iit_c004",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c005",
+        "dst_claim_id": "iit_c007",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c005",
+        "dst_claim_id": "iit_n013",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c005",
+        "dst_claim_id": "iit_n023",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c005",
+        "dst_claim_id": "iit_c003",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c005",
+        "dst_claim_id": "iit_c010",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c005",
+        "dst_claim_id": "iit_c025",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c005",
+        "dst_claim_id": "iit_n006",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c012",
+        "dst_claim_id": "iit_c004",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c012",
+        "dst_claim_id": "iit_c007",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c012",
+        "dst_claim_id": "iit_n013",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c012",
+        "dst_claim_id": "iit_n023",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c012",
+        "dst_claim_id": "iit_c003",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c012",
+        "dst_claim_id": "iit_c010",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c012",
+        "dst_claim_id": "iit_c025",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c012",
+        "dst_claim_id": "iit_n006",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c016",
+        "dst_claim_id": "iit_c004",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c016",
+        "dst_claim_id": "iit_c007",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c016",
+        "dst_claim_id": "iit_n013",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c016",
+        "dst_claim_id": "iit_n023",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c016",
+        "dst_claim_id": "iit_c003",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c016",
+        "dst_claim_id": "iit_c010",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c016",
+        "dst_claim_id": "iit_c025",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c016",
+        "dst_claim_id": "iit_n006",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "iit_c013",
+        "dst_claim_id": "iit_c001",
+        "relation": "grounds",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_c013",
+        "dst_claim_id": "iit_c023",
+        "relation": "entails",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_c023",
+        "dst_claim_id": "iit_c006",
+        "relation": "constrains",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_c002",
+        "dst_claim_id": "iit_n002",
+        "relation": "entails",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_n022",
+        "dst_claim_id": "iit_c006",
+        "relation": "grounds",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_n022",
+        "dst_claim_id": "iit_c023",
+        "relation": "entails",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_n007",
+        "dst_claim_id": "iit_t002",
+        "relation": "entails",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_n015",
+        "dst_claim_id": "iit_t001",
+        "relation": "grounds",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_c004",
+        "dst_claim_id": "iit_n015",
+        "relation": "entails",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_c004",
+        "dst_claim_id": "iit_t003",
+        "relation": "predicts_observable",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_c002",
+        "dst_claim_id": "iit_t002",
+        "relation": "predicts_observable",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "iit_c002",
+        "dst_claim_id": "iit_c006",
+        "relation": "grounds",
+        "source": "oracle_authored"
+      },
+      {
+        "src_claim_id": "iit_c010",
+        "dst_claim_id": "iit_n007",
+        "relation": "grounds",
+        "source": "oracle_authored"
+      }
+    ]
+  },
+  "right": {
+    "slug": "gnwt",
+    "theory": "GNWT",
+    "nodes": [
+      {
+        "claim_id": "gnwt_c001",
+        "theory": "GNWT",
+        "entity_type": "process",
+        "axis": "mechanism",
+        "value": "global_broadcast_via_long_range_reverberant_network",
+        "polarity": "asserts",
+        "statement": "Conscious access corresponds to information that enters a large-scale reverberant network and is globally broadcast to multiple specialized processors via long-range cortico-cortical connections.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0001",
+          "gnwt_neuron_2011_0081",
+          "gnwt_neuron_2011_0090",
+          "gnwt_neuron_2011_0110",
+          "gnwt_neuron_2011_0166",
+          "gnwt_neuron_2020_0000",
+          "gnwt_neuron_2020_0009",
+          "gnwt_neuron_2020_0012",
+          "gnwt_neuron_2020_0016",
+          "gnwt_neuron_2020_0018",
+          "gnwt_neuron_2020_0031",
+          "gnwt_neuron_2020_0045",
+          "gnwt_neuron_2020_0066",
+          "gnwt_neuron_2020_0102",
+          "gnwt_neuron_2020_0454",
+          "gnwt_science_2017_0013",
+          "gnwt_science_2017_0021",
+          "gnwt_science_2017_0022",
+          "gnwt_science_2017_0039",
+          "gnwt_science_2017_0045",
+          "gnwt_science_2017_0046",
+          "gnwt_science_2017_0050",
+          "gnwt_science_2017_0074"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2011_0001",
+            "locator": "p.1"
+          },
+          {
+            "id": "gnwt_neuron_2011_0081",
+            "locator": "p.10"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c002",
+        "theory": "GNWT",
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "value": "nonlinear_ignition_threshold",
+        "polarity": "asserts",
+        "statement": "Conscious access is marked by a threshold-dependent nonlinear ignition event (~300 ms) in which activity either self-amplifies to ignite the entire workspace network or decays subliminally.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0000",
+          "gnwt_neuron_2011_0002",
+          "gnwt_neuron_2011_0018",
+          "gnwt_neuron_2011_0049",
+          "gnwt_neuron_2011_0098",
+          "gnwt_neuron_2020_0000",
+          "gnwt_neuron_2020_0023",
+          "gnwt_neuron_2020_0029",
+          "gnwt_neuron_2020_0046",
+          "gnwt_neuron_2020_0049",
+          "gnwt_neuron_2020_0050",
+          "gnwt_neuron_2020_0438",
+          "gnwt_science_2017_0003",
+          "gnwt_science_2017_0039",
+          "gnwt_science_2017_0060",
+          "gnwt_science_2017_0076"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2011_0000",
+            "locator": "p.1"
+          },
+          {
+            "id": "gnwt_neuron_2011_0002",
+            "locator": "p.1"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c003",
+        "theory": "GNWT",
+        "entity_type": "substrate",
+        "axis": "locus",
+        "value": "prefrontal_parietal_cortical_network",
+        "polarity": "asserts",
+        "statement": "The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0001",
+          "gnwt_neuron_2011_0034",
+          "gnwt_neuron_2011_0064",
+          "gnwt_neuron_2011_0072",
+          "gnwt_neuron_2011_0077",
+          "gnwt_neuron_2011_0086",
+          "gnwt_neuron_2011_0098",
+          "gnwt_neuron_2011_0118",
+          "gnwt_neuron_2011_0167",
+          "gnwt_neuron_2020_0016",
+          "gnwt_neuron_2020_0023",
+          "gnwt_neuron_2020_0026",
+          "gnwt_neuron_2020_0031",
+          "gnwt_neuron_2020_0043",
+          "gnwt_neuron_2020_0075",
+          "gnwt_neuron_2020_0133",
+          "gnwt_neuron_2020_0134",
+          "gnwt_science_2017_0025",
+          "gnwt_science_2017_0050",
+          "gnwt_science_2017_0060",
+          "gnwt_science_2017_0063",
+          "gnwt_science_2017_0074"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2011_0001",
+            "locator": "p.1"
+          },
+          {
+            "id": "gnwt_neuron_2011_0034",
+            "locator": "p.4"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c004",
+        "theory": "GNWT",
+        "entity_type": "information",
+        "axis": "observable_commitment",
+        "value": "access_consciousness_primary",
+        "polarity": "asserts",
+        "statement": "GNWT is focused on conscious access and information processing, and denies that the distinction between phenomenal and access consciousness is fundamental.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0000",
+          "gnwt_neuron_2020_0134",
+          "gnwt_science_2017_0113"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2011_0000",
+            "locator": "p.1"
+          },
+          {
+            "id": "gnwt_neuron_2020_0134",
+            "locator": "p.20"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c008",
+        "theory": "GNWT",
+        "entity_type": "constraint",
+        "axis": "connectivity",
+        "value": "global_workspace_connectivity_required",
+        "polarity": "asserts",
+        "statement": "Without a functional global neuronal workspace, cortical representations cannot be broadcast and are not experienced; functional connectivity of GNW is a necessary condition for consciousness.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0102",
+          "gnwt_neuron_2020_0118"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2020_0102",
+            "locator": "p.16"
+          },
+          {
+            "id": "gnwt_neuron_2020_0118",
+            "locator": "p.18"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c012",
+        "theory": "GNWT",
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "value": "neuroanatomically_grounded",
+        "polarity": "asserts",
+        "statement": "The GNW is substrate-dependent in that it is grounded in specific neuroanatomical recurrent connectivity in the human brain, not any substrate.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0000",
+          "gnwt_neuron_2020_0012",
+          "gnwt_neuron_2020_0018",
+          "gnwt_neuron_2020_0066",
+          "gnwt_neuron_2020_0096",
+          "gnwt_neuron_2020_0434"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2020_0000",
+            "locator": "p.1"
+          },
+          {
+            "id": "gnwt_neuron_2020_0012",
+            "locator": "p.3"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c013",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "architecture",
+        "value": "global_neuronal_workspace_broadcast",
+        "polarity": "asserts",
+        "statement": "A central set of highly interconnected cortical areas with long-distance axons selects, amplifies, and broadcasts information to all processors, rendering it consciously accessible.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0434",
+          "gnwt_science_2017_0045",
+          "gnwt_science_2017_0052"
+        ],
+        "agreement": true,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2020_0434",
+            "locator": "p.37"
+          },
+          {
+            "id": "gnwt_science_2017_0045",
+            "locator": "p.5"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c015",
+        "theory": "GNWT",
+        "entity_type": "process",
+        "axis": "mechanism",
+        "value": "attention_access_dissociation",
+        "polarity": "asserts",
+        "statement": "Conscious access is distinct from selective attention; selection and global broadcast availability are separable processes.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0018"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2011_0018",
+            "locator": "p.2"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c017",
+        "theory": "GNWT",
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "value": "recurrent_feedback_required",
+        "polarity": "asserts",
+        "statement": "Feedforward processing alone is not sufficient for conscious access; recurrent top-down feedback loops are essential to conscious perception.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0087",
+          "gnwt_neuron_2020_0138"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2011_0087",
+            "locator": "p.11"
+          },
+          {
+            "id": "gnwt_neuron_2020_0138",
+            "locator": "p.21"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c018",
+        "theory": "GNWT",
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "value": "late_onset_threshold",
+        "polarity": "asserts",
+        "statement": "Conscious access has a late temporal signature (>300 ms), with massive amplification of gamma-band power, long-distance phase synchrony, and causal propagation; early responses do not constitute conscious access.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0047",
+          "gnwt_neuron_2011_0054"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2011_0047",
+            "locator": "p.6"
+          },
+          {
+            "id": "gnwt_neuron_2011_0054",
+            "locator": "p.7"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c020",
+        "theory": "GNWT",
+        "entity_type": "substrate",
+        "axis": "architecture",
+        "value": "long_distance_cortical_network_prefrontal_parietal",
+        "polarity": "asserts",
+        "statement": "The global neuronal workspace is anatomically constituted by long-distance cortico-cortical connections arising from pyramidal neurons in layers II-III, densely distributed in prefrontal and parietal cortices.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0111",
+          "gnwt_neuron_2011_0112",
+          "gnwt_neuron_2011_0119"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2011_0111",
+            "locator": "p.14"
+          },
+          {
+            "id": "gnwt_neuron_2011_0112",
+            "locator": "p.14"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c022",
+        "theory": "GNWT",
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "value": "neural_correlates_of_conscious_access",
+        "polarity": "asserts",
+        "statement": "Conscious access is observable as a distinct, measurable set of neural signatures (P3b, gamma amplification, long-distance phase synchrony, top-down causal flow), providing neural correlates that can in principle map one-to-one onto subjective experience.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0166",
+          "gnwt_neuron_2011_0167"
+        ],
+        "agreement": true,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2011_0166",
+            "locator": "p.20"
+          },
+          {
+            "id": "gnwt_neuron_2011_0167",
+            "locator": "p.20"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_c025",
+        "theory": "GNWT",
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "value": "gradual_buildup",
+        "polarity": "asserts",
+        "statement": "Neural correlates of conscious experience build up gradually across cortical areas, implying a temporal profile for the emergence of conscious content.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0241",
+          "gnwt_neuron_2020_0001"
+        ],
+        "agreement": true,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_neuron_2011_0241",
+            "locator": "p.21"
+          },
+          {
+            "id": "gnwt_neuron_2020_0001",
+            "locator": "p.1"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_n004",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "architecture",
+        "value": "dual_component_c1_c2",
+        "polarity": "asserts",
+        "statement": "Two distinct consciousness computations are posited: C1 (global availability/reportability) and C2 (self-monitoring/metacognition), which can dissociate empirically.",
+        "passage_ids": [
+          "gnwt_science_2017_0025",
+          "gnwt_science_2017_0039",
+          "gnwt_science_2017_0005"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_science_2017_0025",
+            "locator": "p.3"
+          },
+          {
+            "id": "gnwt_science_2017_0039",
+            "locator": "p.4"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_n007",
+        "theory": "GNWT",
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "value": "capacity_limited_access",
+        "polarity": "asserts",
+        "statement": "The global workspace has limited capacity, reducing complex parallel sensory streams to a single conscious sample—consciousness involves a bottleneck threshold for access.",
+        "passage_ids": [
+          "gnwt_science_2017_0050",
+          "gnwt_science_2017_0095"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_science_2017_0050",
+            "locator": "p.6"
+          },
+          {
+            "id": "gnwt_science_2017_0095",
+            "locator": "p.10"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_n008",
+        "theory": "GNWT",
+        "entity_type": "process",
+        "axis": "architecture",
+        "value": "self_monitoring_metacognition",
+        "polarity": "asserts",
+        "statement": "Consciousness (C2) is a second distinct computation: self-monitoring of global workspace contents, implemented by prefrontal/cingulate circuits yielding subjective certainty or error detection.",
+        "passage_ids": [
+          "gnwt_science_2017_0013",
+          "gnwt_science_2017_0078",
+          "gnwt_science_2017_0081"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_science_2017_0013",
+            "locator": "p.2"
+          },
+          {
+            "id": "gnwt_science_2017_0078",
+            "locator": "p.9"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_n010",
+        "theory": "GNWT",
+        "entity_type": "invariant",
+        "axis": "architecture",
+        "value": "orthogonal_dimensions",
+        "polarity": "asserts",
+        "statement": "C1 (global availability) and C2 (self-monitoring/meta-cognition) are orthogonal, independently variable dimensions of conscious computation.",
+        "passage_ids": [
+          "gnwt_science_2017_0022",
+          "gnwt_science_2017_0024"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_science_2017_0022",
+            "locator": "p.2"
+          },
+          {
+            "id": "gnwt_science_2017_0024",
+            "locator": "p.3"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_n011",
+        "theory": "GNWT",
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "value": "substrate_independent",
+        "polarity": "asserts",
+        "statement": "The global workspace is a substrate-independent computational architecture: machines with the right functional organization could instantiate conscious computation.",
+        "passage_ids": [
+          "gnwt_science_2017_0019",
+          "gnwt_science_2017_0020",
+          "gnwt_science_2017_0112"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_science_2017_0019",
+            "locator": "p.2"
+          },
+          {
+            "id": "gnwt_science_2017_0020",
+            "locator": "p.2"
+          }
+        ]
+      },
+      {
+        "claim_id": "gnwt_n013",
+        "theory": "GNWT",
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "value": "serial_all_or_none",
+        "polarity": "asserts",
+        "statement": "Conscious processing is serial and all-or-none: at any moment only one interpretation reaches consciousness, and access to one item prevents or delays conscious access to a competing item.",
+        "passage_ids": [
+          "gnwt_science_2017_0056"
+        ],
+        "agreement": false,
+        "status": "approved",
+        "prov": [
+          {
+            "id": "gnwt_science_2017_0056",
+            "locator": "p.6"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "src_claim_id": "gnwt_c001",
+        "dst_claim_id": "gnwt_c004",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_c001",
+        "dst_claim_id": "gnwt_c022",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_c015",
+        "dst_claim_id": "gnwt_c004",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_c015",
+        "dst_claim_id": "gnwt_c022",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_n008",
+        "dst_claim_id": "gnwt_c004",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_n008",
+        "dst_claim_id": "gnwt_c022",
+        "relation": "predicts_observable",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_n010",
+        "dst_claim_id": "gnwt_c001",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_n010",
+        "dst_claim_id": "gnwt_c015",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_n010",
+        "dst_claim_id": "gnwt_n008",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_n010",
+        "dst_claim_id": "gnwt_c008",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_n010",
+        "dst_claim_id": "gnwt_c017",
+        "relation": "grounds",
+        "source": "rule"
+      },
+      {
+        "src_claim_id": "gnwt_c002",
+        "dst_claim_id": "gnwt_c018",
+        "relation": "entails",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c002",
+        "dst_claim_id": "gnwt_c022",
+        "relation": "predicts_observable",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c003",
+        "dst_claim_id": "gnwt_c012",
+        "relation": "grounds",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c013",
+        "dst_claim_id": "gnwt_c003",
+        "relation": "grounds",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c020",
+        "dst_claim_id": "gnwt_c013",
+        "relation": "grounds",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c020",
+        "dst_claim_id": "gnwt_c008",
+        "relation": "grounds",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c013",
+        "dst_claim_id": "gnwt_n007",
+        "relation": "constrains",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_n007",
+        "dst_claim_id": "gnwt_n013",
+        "relation": "entails",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_n004",
+        "dst_claim_id": "gnwt_n010",
+        "relation": "grounds",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_n004",
+        "dst_claim_id": "gnwt_n008",
+        "relation": "entails",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_n011",
+        "dst_claim_id": "gnwt_c012",
+        "relation": "constrains",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c018",
+        "dst_claim_id": "gnwt_c025",
+        "relation": "constrains",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c001",
+        "dst_claim_id": "gnwt_c002",
+        "relation": "grounds",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c017",
+        "dst_claim_id": "gnwt_c002",
+        "relation": "grounds",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c025",
+        "dst_claim_id": "gnwt_c022",
+        "relation": "predicts_observable",
+        "source": "llm_suggested"
+      },
+      {
+        "src_claim_id": "gnwt_c020",
+        "dst_claim_id": "gnwt_c012",
+        "relation": "grounds",
+        "source": "oracle_authored"
+      }
+    ]
+  },
+  "correspondences": [
+    {
+      "pair": "IITxGNWT",
+      "kind": "shared_measurement_space",
+      "grade": "partial",
+      "left_ids": [
+        "iit_n005",
+        "iit_t001"
+      ],
+      "right_ids": [
+        "gnwt_c004",
+        "gnwt_c022"
+      ],
+      "spaces": [
+        "connectivity_metrics",
+        "ignition_signature",
+        "regional_decoding",
+        "temporal_generalization"
+      ],
+      "scale": [
+        "brain_network"
+      ],
+      "type_divergence": false,
+      "capped_from": null,
+      "status": "draft",
+      "rationale": "both theories commit measurements to a shared observable space ['connectivity_metrics', 'ignition_signature', 'regional_decoding', 'temporal_generalization'] at ['brain_network'] scale — golden S2 (pairability spine); the disagreements inside it surface as the observable_commitment forks"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c004"
+      ],
+      "right_ids": [
+        "gnwt_c001"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "mechanism: phi_structure_state_dependent ~ global_broadcast_via_long_range_reverberant_network (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c004"
+      ],
+      "right_ids": [
+        "gnwt_c015"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "mechanism: phi_structure_state_dependent ~ attention_access_dissociation (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c006"
+      ],
+      "right_ids": [
+        "gnwt_c002"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": false,
+      "status": "draft",
+      "rationale": "unit_threshold: maximal_integrated_information ~ nonlinear_ignition_threshold (generative)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c006"
+      ],
+      "right_ids": [
+        "gnwt_n007"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": false,
+      "status": "draft",
+      "rationale": "unit_threshold: maximal_integrated_information ~ capacity_limited_access (generative)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c007"
+      ],
+      "right_ids": [
+        "gnwt_c001"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "mechanism: irreducible_integrated_information_required ~ global_broadcast_via_long_range_reverberant_network (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c007"
+      ],
+      "right_ids": [
+        "gnwt_c015"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "mechanism: irreducible_integrated_information_required ~ attention_access_dissociation (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c016"
+      ],
+      "right_ids": [
+        "gnwt_c013"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "architecture: integrated_irreducible ~ global_neuronal_workspace_broadcast (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c016"
+      ],
+      "right_ids": [
+        "gnwt_c017"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "architecture: integrated_irreducible ~ recurrent_feedback_required (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c016"
+      ],
+      "right_ids": [
+        "gnwt_c020"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "architecture: integrated_irreducible ~ long_distance_cortical_network_prefrontal_parietal (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c016"
+      ],
+      "right_ids": [
+        "gnwt_n004"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "architecture: integrated_irreducible ~ dual_component_c1_c2 (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c016"
+      ],
+      "right_ids": [
+        "gnwt_n008"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "architecture: integrated_irreducible ~ self_monitoring_metacognition (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c016"
+      ],
+      "right_ids": [
+        "gnwt_n010"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": false,
+      "status": "draft",
+      "rationale": "architecture: integrated_irreducible ~ orthogonal_dimensions (generative)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c023"
+      ],
+      "right_ids": [
+        "gnwt_c002"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": false,
+      "status": "draft",
+      "rationale": "unit_threshold: nonzero_integrated_information ~ nonlinear_ignition_threshold (generative)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_c023"
+      ],
+      "right_ids": [
+        "gnwt_n007"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": false,
+      "status": "draft",
+      "rationale": "unit_threshold: nonzero_integrated_information ~ capacity_limited_access (generative)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_n006"
+      ],
+      "right_ids": [
+        "gnwt_c013"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "architecture: requires_integrated_recurrent_architecture ~ global_neuronal_workspace_broadcast (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_n006"
+      ],
+      "right_ids": [
+        "gnwt_c017"
+      ],
+      "kind": "node",
+      "grade": "partial",
+      "capped_from": null,
+      "type_divergence": false,
+      "status": "draft",
+      "rationale": "architecture: requires_integrated_recurrent_architecture ~ recurrent_feedback_required (partial)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_n006"
+      ],
+      "right_ids": [
+        "gnwt_c020"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "architecture: requires_integrated_recurrent_architecture ~ long_distance_cortical_network_prefrontal_parietal (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_n006"
+      ],
+      "right_ids": [
+        "gnwt_n004"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "architecture: requires_integrated_recurrent_architecture ~ dual_component_c1_c2 (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_n006"
+      ],
+      "right_ids": [
+        "gnwt_n008"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "architecture: requires_integrated_recurrent_architecture ~ self_monitoring_metacognition (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_n006"
+      ],
+      "right_ids": [
+        "gnwt_n010"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": true,
+      "status": "draft",
+      "rationale": "architecture: requires_integrated_recurrent_architecture ~ orthogonal_dimensions (generative, type_divergence)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_n015"
+      ],
+      "right_ids": [
+        "gnwt_c002"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": false,
+      "status": "draft",
+      "rationale": "unit_threshold: integration_breakdown ~ nonlinear_ignition_threshold (generative)"
+    },
+    {
+      "pair": "IITxGNWT",
+      "left_ids": [
+        "iit_n015"
+      ],
+      "right_ids": [
+        "gnwt_n007"
+      ],
+      "kind": "node",
+      "grade": "generative",
+      "capped_from": null,
+      "type_divergence": false,
+      "status": "draft",
+      "rationale": "unit_threshold: integration_breakdown ~ capacity_limited_access (generative)"
+    }
+  ],
+  "forks": [
+    {
+      "pair": "IITxGNWT",
+      "axis": "substrate_dependence",
+      "left_ids": [
+        "iit_c002"
+      ],
+      "right_ids": [
+        "gnwt_c012"
+      ],
+      "left_value": "substrate_dependent",
+      "right_value": "neuroanatomically_grounded",
+      "type_divergence": false,
+      "polarity_opposed": false,
+      "decidability": "not_current"
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "substrate_dependence",
+      "left_ids": [
+        "iit_c002"
+      ],
+      "right_ids": [
+        "gnwt_n011"
+      ],
+      "left_value": "substrate_dependent",
+      "right_value": "substrate_independent",
+      "type_divergence": false,
+      "polarity_opposed": false,
+      "decidability": "not_current"
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "locus",
+      "left_ids": [
+        "iit_c010"
+      ],
+      "right_ids": [
+        "gnwt_c003"
+      ],
+      "left_value": "single_maximal_complex",
+      "right_value": "prefrontal_parietal_cortical_network",
+      "type_divergence": true,
+      "polarity_opposed": false,
+      "decidability": "now",
+      "sketch": {
+        "axis": "locus",
+        "shared_observables": [
+          "regional_decoding"
+        ],
+        "left": {
+          "theory": "IIT",
+          "claim": "c010",
+          "statement": "The exclusion postulate restricts the locus of consciousness to a single maximally irreducible system (complex), not any subset or superset.",
+          "expected_on": [
+            "regional_decoding"
+          ],
+          "direction": "“The exclusion postulate restricts the locus of consciousness to a single maximally irreducible system (complex), not any subset or superset.” (c010) — expected on shared observables: regional_decoding"
+        },
+        "right": {
+          "theory": "GNWT",
+          "claim": "c003",
+          "statement": "The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone.",
+          "expected_on": [
+            "regional_decoding"
+          ],
+          "direction": "“The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone.” (c003) — expected on shared observables: regional_decoding"
+        },
+        "oracle_annotation": null
+      }
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "connectivity",
+      "left_ids": [
+        "iit_c025"
+      ],
+      "right_ids": [
+        "gnwt_c008"
+      ],
+      "left_value": "heterogeneous_connectivity_required",
+      "right_value": "global_workspace_connectivity_required",
+      "type_divergence": false,
+      "polarity_opposed": false,
+      "decidability": "now",
+      "sketch": {
+        "axis": "connectivity",
+        "shared_observables": [
+          "connectivity_metrics"
+        ],
+        "left": {
+          "theory": "IIT",
+          "claim": "c025",
+          "statement": "The richness and level of consciousness increase with the diversity and specialization of causal connections; homogeneous connectivity reduces consciousness.",
+          "expected_on": [
+            "connectivity_metrics"
+          ],
+          "direction": "“The richness and level of consciousness increase with the diversity and specialization of causal connections; homogeneous connectivity reduces consciousness.” (c025) — expected on shared observables: connectivity_metrics"
+        },
+        "right": {
+          "theory": "GNWT",
+          "claim": "c008",
+          "statement": "Without a functional global neuronal workspace, cortical representations cannot be broadcast and are not experienced; functional connectivity of GNW is a necessary condition for consciousness.",
+          "expected_on": [
+            "connectivity_metrics"
+          ],
+          "direction": "“Without a functional global neuronal workspace, cortical representations cannot be broadcast and are not experienced; functional connectivity of GNW is a necessary condition for consciousness.” (c008) — expected on shared observables: connectivity_metrics"
+        },
+        "oracle_annotation": null
+      }
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "observable_commitment",
+      "left_ids": [
+        "iit_n005"
+      ],
+      "right_ids": [
+        "gnwt_c004"
+      ],
+      "left_value": "empirically_measurable_via_causal_perturbation",
+      "right_value": "access_consciousness_primary",
+      "type_divergence": true,
+      "polarity_opposed": false,
+      "decidability": "now"
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "observable_commitment",
+      "left_ids": [
+        "iit_n005"
+      ],
+      "right_ids": [
+        "gnwt_c022"
+      ],
+      "left_value": "empirically_measurable_via_causal_perturbation",
+      "right_value": "neural_correlates_of_conscious_access",
+      "type_divergence": false,
+      "polarity_opposed": false,
+      "decidability": "now"
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "locus",
+      "left_ids": [
+        "iit_n007"
+      ],
+      "right_ids": [
+        "gnwt_c003"
+      ],
+      "left_value": "maximal_irreducible_complex",
+      "right_value": "prefrontal_parietal_cortical_network",
+      "type_divergence": true,
+      "polarity_opposed": false,
+      "decidability": "now",
+      "sketch": {
+        "axis": "locus",
+        "shared_observables": [
+          "regional_decoding"
+        ],
+        "left": {
+          "theory": "IIT",
+          "claim": "n007",
+          "statement": "The PSC is a bounded complex of elements with maximal integrated information; elements outside this boundary (e.g., cerebellar neurons, peripheral sensory/motor pathways, basal ganglia loops) do not directly contribute to consciousness despite influencing cortical activity.",
+          "expected_on": [
+            "regional_decoding"
+          ],
+          "direction": "“The PSC is a bounded complex of elements with maximal integrated information; elements outside this boundary (e.g., cerebellar neurons, peripheral sensory/motor pathways, basal ganglia loops) do not directly contribute to consciousness despite influencing cortical activity.” (n007) — expected on shared observables: regional_decoding"
+        },
+        "right": {
+          "theory": "GNWT",
+          "claim": "c003",
+          "statement": "The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone.",
+          "expected_on": [
+            "regional_decoding"
+          ],
+          "direction": "“The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone.” (c003) — expected on shared observables: regional_decoding"
+        },
+        "oracle_annotation": null
+      }
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "locus",
+      "left_ids": [
+        "iit_n013"
+      ],
+      "right_ids": [
+        "gnwt_c003"
+      ],
+      "left_value": "intrinsic_not_broadcast",
+      "right_value": "prefrontal_parietal_cortical_network",
+      "type_divergence": true,
+      "polarity_opposed": false,
+      "decidability": "now",
+      "sketch": {
+        "axis": "locus",
+        "shared_observables": [
+          "regional_decoding"
+        ],
+        "left": {
+          "theory": "IIT",
+          "claim": "n013",
+          "statement": "Conscious information is not transmitted or broadcast from one brain region to another; the locus of consciousness is intrinsic to the PSC, not a relay or global broadcast.",
+          "expected_on": [
+            "regional_decoding"
+          ],
+          "direction": "“Conscious information is not transmitted or broadcast from one brain region to another; the locus of consciousness is intrinsic to the PSC, not a relay or global broadcast.” (n013) — expected on shared observables: regional_decoding"
+        },
+        "right": {
+          "theory": "GNWT",
+          "claim": "c003",
+          "statement": "The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone.",
+          "expected_on": [
+            "regional_decoding"
+          ],
+          "direction": "“The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone.” (c003) — expected on shared observables: regional_decoding"
+        },
+        "oracle_annotation": null
+      }
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "observable_commitment",
+      "left_ids": [
+        "iit_t001"
+      ],
+      "right_ids": [
+        "gnwt_c004"
+      ],
+      "left_value": "perturbational_complexity_index",
+      "right_value": "access_consciousness_primary",
+      "type_divergence": true,
+      "polarity_opposed": false,
+      "decidability": "now"
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "observable_commitment",
+      "left_ids": [
+        "iit_t001"
+      ],
+      "right_ids": [
+        "gnwt_c022"
+      ],
+      "left_value": "perturbational_complexity_index",
+      "right_value": "neural_correlates_of_conscious_access",
+      "type_divergence": false,
+      "polarity_opposed": false,
+      "decidability": "now"
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "locus",
+      "left_ids": [
+        "iit_t002"
+      ],
+      "right_ids": [
+        "gnwt_c003"
+      ],
+      "left_value": "posterior_hot_zone",
+      "right_value": "prefrontal_parietal_cortical_network",
+      "type_divergence": false,
+      "polarity_opposed": false,
+      "decidability": "now",
+      "sketch": {
+        "axis": "locus",
+        "shared_observables": [
+          "regional_decoding"
+        ],
+        "left": {
+          "theory": "IIT",
+          "claim": "t002",
+          "statement": "IIT predicts that the neural substrate of consciousness (PSC/complex) corresponds to elements with maximum intrinsic cause–effect power, locating the content-specific NCC in the neural elements of the PSC rather than in prefrontal or other regions, consistent with a posterior cortical hot zone.",
+          "expected_on": [
+            "regional_decoding"
+          ],
+          "direction": "“IIT predicts that the neural substrate of consciousness (PSC/complex) corresponds to elements with maximum intrinsic cause–effect power, locating the content-specific NCC in the neural elements of the PSC rather than in prefrontal or other regions, consistent with a posterior cortical hot zone.” (t002) — expected on shared observables: regional_decoding"
+        },
+        "right": {
+          "theory": "GNWT",
+          "claim": "c003",
+          "statement": "The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone.",
+          "expected_on": [
+            "regional_decoding"
+          ],
+          "direction": "“The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone.” (c003) — expected on shared observables: regional_decoding"
+        },
+        "oracle_annotation": null
+      }
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "temporal_profile",
+      "left_ids": [
+        "iit_t003"
+      ],
+      "right_ids": [
+        "gnwt_c018"
+      ],
+      "left_value": "sustained_maintenance",
+      "right_value": "late_onset_threshold",
+      "type_divergence": false,
+      "polarity_opposed": false,
+      "decidability": "now",
+      "sketch": {
+        "axis": "temporal_profile",
+        "shared_observables": [
+          "ignition_signature",
+          "temporal_generalization"
+        ],
+        "left": {
+          "theory": "IIT",
+          "claim": "t003",
+          "statement": "IIT predicts that the duration of a conscious instant is definite and sustained over tens to hundreds of milliseconds, not transient or phasic, as required by the exclusion postulate governing the cause–effect structure of the PSC.",
+          "expected_on": [
+            "ignition_signature",
+            "temporal_generalization"
+          ],
+          "direction": "“IIT predicts that the duration of a conscious instant is definite and sustained over tens to hundreds of milliseconds, not transient or phasic, as required by the exclusion postulate governing the cause–effect structure of the PSC.” (t003) — expected on shared observables: ignition_signature, temporal_generalization"
+        },
+        "right": {
+          "theory": "GNWT",
+          "claim": "c018",
+          "statement": "Conscious access has a late temporal signature (>300 ms), with massive amplification of gamma-band power, long-distance phase synchrony, and causal propagation; early responses do not constitute conscious access.",
+          "expected_on": [
+            "ignition_signature",
+            "temporal_generalization"
+          ],
+          "direction": "“Conscious access has a late temporal signature (>300 ms), with massive amplification of gamma-band power, long-distance phase synchrony, and causal propagation; early responses do not constitute conscious access.” (c018) — expected on shared observables: ignition_signature, temporal_generalization"
+        },
+        "oracle_annotation": null
+      }
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "temporal_profile",
+      "left_ids": [
+        "iit_t003"
+      ],
+      "right_ids": [
+        "gnwt_c025"
+      ],
+      "left_value": "sustained_maintenance",
+      "right_value": "gradual_buildup",
+      "type_divergence": false,
+      "polarity_opposed": false,
+      "decidability": "now",
+      "sketch": {
+        "axis": "temporal_profile",
+        "shared_observables": [
+          "ignition_signature",
+          "temporal_generalization"
+        ],
+        "left": {
+          "theory": "IIT",
+          "claim": "t003",
+          "statement": "IIT predicts that the duration of a conscious instant is definite and sustained over tens to hundreds of milliseconds, not transient or phasic, as required by the exclusion postulate governing the cause–effect structure of the PSC.",
+          "expected_on": [
+            "ignition_signature",
+            "temporal_generalization"
+          ],
+          "direction": "“IIT predicts that the duration of a conscious instant is definite and sustained over tens to hundreds of milliseconds, not transient or phasic, as required by the exclusion postulate governing the cause–effect structure of the PSC.” (t003) — expected on shared observables: ignition_signature, temporal_generalization"
+        },
+        "right": {
+          "theory": "GNWT",
+          "claim": "c025",
+          "statement": "Neural correlates of conscious experience build up gradually across cortical areas, implying a temporal profile for the emergence of conscious content.",
+          "expected_on": [
+            "ignition_signature",
+            "temporal_generalization"
+          ],
+          "direction": "“Neural correlates of conscious experience build up gradually across cortical areas, implying a temporal profile for the emergence of conscious content.” (c025) — expected on shared observables: ignition_signature, temporal_generalization"
+        },
+        "oracle_annotation": null
+      }
+    },
+    {
+      "pair": "IITxGNWT",
+      "axis": "temporal_profile",
+      "left_ids": [
+        "iit_t003"
+      ],
+      "right_ids": [
+        "gnwt_n013"
+      ],
+      "left_value": "sustained_maintenance",
+      "right_value": "serial_all_or_none",
+      "type_divergence": false,
+      "polarity_opposed": false,
+      "decidability": "now",
+      "sketch": {
+        "axis": "temporal_profile",
+        "shared_observables": [
+          "ignition_signature",
+          "temporal_generalization"
+        ],
+        "left": {
+          "theory": "IIT",
+          "claim": "t003",
+          "statement": "IIT predicts that the duration of a conscious instant is definite and sustained over tens to hundreds of milliseconds, not transient or phasic, as required by the exclusion postulate governing the cause–effect structure of the PSC.",
+          "expected_on": [
+            "ignition_signature",
+            "temporal_generalization"
+          ],
+          "direction": "“IIT predicts that the duration of a conscious instant is definite and sustained over tens to hundreds of milliseconds, not transient or phasic, as required by the exclusion postulate governing the cause–effect structure of the PSC.” (t003) — expected on shared observables: ignition_signature, temporal_generalization"
+        },
+        "right": {
+          "theory": "GNWT",
+          "claim": "n013",
+          "statement": "Conscious processing is serial and all-or-none: at any moment only one interpretation reaches consciousness, and access to one item prevents or delays conscious access to a competing item.",
+          "expected_on": [
+            "ignition_signature",
+            "temporal_generalization"
+          ],
+          "direction": "“Conscious processing is serial and all-or-none: at any moment only one interpretation reaches consciousness, and access to one item prevents or delays conscious access to a competing item.” (n013) — expected on shared observables: ignition_signature, temporal_generalization"
+        },
+        "oracle_annotation": null
+      }
+    }
+  ],
+  "bridge": {
+    "axis": "mechanism_scale",
+    "decidability": "now",
+    "note": null,
+    "id": null,
+    "first_test_scale": null
+  },
+  "notes_left": [],
+  "notes_right": []
+}
