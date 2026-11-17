@@ -24,7 +24,7 @@ The blind validation ran a deterministic rule-based matcher over the typed claim
 
 ## The result
 
-The engine recovered 2 of 3 preregistered disagreements after a disclosed re-review of one card (originally 1 of 3). Against a 1,000-key permutation null this is p = 0.075, suggestive only. Method and full numbers: [10.5281/zenodo.23672883](https://zenodo.org/records/23672883). The third disagreement was only partially recovered: it turned on a threshold negotiated between scientists in a room and absent from every theory's published text. That partial miss is consistent with no training leakage — the engine found what was in the papers, not what was decided in the workshop.
+The engine recovered 2 of 3 preregistered disagreements after a disclosed re-review of one card (originally 1 of 3). Against a 1,000-key permutation null this is p = 0.075, suggestive only. Method and full numbers: [10.5281/zenodo.23672883](https://zenodo.org/records/23672883). The third disagreement was not recovered: it turned on a threshold negotiated between scientists in a room and absent from every theory's published text. That miss is consistent with no training leakage — the engine found what was in the papers, not what was decided in the workshop.
 
 It also surfaced one disagreement the experts could not resolve: a substrate-level divergence that the decidability check correctly ruled untestable and attached the specific structural reason (both theories deny a specific property at the substrate level, so functional experiments cannot separate them at that level).
 
