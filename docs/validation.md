@@ -24,7 +24,7 @@ The blind validation demo runs a deterministic rule-based matcher over the typed
 
 ## The result
 
-The engine recovered two of the three preregistered disagreements after a disclosed re-review of one card; the original blind result was one of three. Against a 1000-key permutation null this is p = 0.075 — suggestive, not statistically significant. The third disagreement was only partially recovered: it turned on a threshold negotiated between scientists in a room and absent from every theory's published text. That partial miss is consistent with no training leakage — the engine found what was in the papers, not what was decided in the workshop.
+The engine recovered two of the three preregistered disagreements after a disclosed re-review of one card; the original blind result was one of three. Against a 1000-key permutation null this is p = 0.075 — suggestive, not statistically significant. The third disagreement was not recovered: it turned on a threshold negotiated between scientists in a room and absent from every theory's published text. That miss is consistent with no training leakage — the engine found what was in the papers, not what was decided in the workshop.
 
 It also surfaced one disagreement the experts could not resolve: a substrate-level divergence that the decidability check correctly ruled untestable and attached the specific structural reason (both theories deny a specific property at the substrate level, so functional experiments cannot separate them at that level).
 
