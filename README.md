@@ -8,6 +8,15 @@
 
 ---
 
+## At a glance
+
+- **What it is:** the method documentation and reference code for comparing scientific claims across fields: typed claims, a rule-based typed matcher, a four-rung grading ladder, an equivocation check, and a testability lookup.
+- **Why it matters:** deciding whether two theories from different fields make the same claim, conflict, or cannot be compared is slow expert work today, and it cannot be re-run or audited.
+- **Who it is for:** researchers interested in cross-field theory comparison and neurosymbolic verification.
+- **Status:** the "Architecture" section marks each part as built, reference code, or in development. Runnable tools built on the same method: [consilience-core](https://github.com/Anuja-Khatri/consilience-core), [lab-gate](https://github.com/Anuja-Khatri/lab-gate) and [consilience-ledger](https://github.com/Anuja-Khatri/consilience-ledger).
+
+Part of [The Consilience](https://theconsilience.io), a verification layer for AI-for-science. All public repos: [github.com/Anuja-Khatri](https://github.com/Anuja-Khatri).
+
 ## The problem
 
 Everyone who works across scientific fields performs the same task by hand. They read two literatures. They hold two vocabularies in their head. And they decide whether two claims are the same claim wearing different clothes, whether they genuinely conflict, or whether they simply cannot be compared.
