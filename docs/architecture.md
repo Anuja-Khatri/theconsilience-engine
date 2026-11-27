@@ -1,5 +1,7 @@
 # Architecture Overview
 
+> **Status.** This page describes the design. VF2 subgraph isomorphism and maximum common subgraph are in development: the published COGITATE result came from a rule-based typed matcher over claim fields, a reference VF2 matcher in `judge/matching/` does not yet report matched edges, and no maximum-common-subgraph code exists yet. See the [README](../README.md#architecture) for what is built.
+
 The Consilience is a neurosymbolic system in the strict sense: neural reading, symbolic judgment. Language models handle extraction (perception). Deterministic code handles all judgment (reasoning). They never share a feedback loop.
 
 ## The governing pattern: LLM Modulo

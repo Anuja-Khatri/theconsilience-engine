@@ -20,11 +20,11 @@ Running blind, with the expert comparisons held out of its corpus, the engine:
 6. Checked each disagreement against the instrument capability map
 7. Published 21 rejections on the IIT x GNW pair with structural reasons
 
-The blind validation demo runs a deterministic rule-based matcher over the typed claims; the VF2 judge in judge/ is the engine's reference implementation and the port target for the demo.
+The blind validation ran a deterministic rule-based matcher over the typed claim fields (axis, polarity, value and stated conditions). It did not use the VF2 code in `judge/`, which is reference code and the port target; maximum common subgraph is not implemented.
 
 ## The result
 
-The engine recovered two of the three preregistered disagreements after a disclosed re-review of one card; the original blind result was one of three. Against a 1000-key permutation null this is p = 0.075 — suggestive, not statistically significant. The third disagreement was not recovered: it turned on a threshold negotiated between scientists in a room and absent from every theory's published text. That miss is consistent with no training leakage — the engine found what was in the papers, not what was decided in the workshop.
+The engine recovered 2 of 3 preregistered disagreements after a disclosed re-review of one card (originally 1 of 3). Against a 1,000-key permutation null this is p = 0.075, suggestive only. Method and full numbers: [10.5281/zenodo.23672883](https://zenodo.org/records/23672883). The third disagreement was not recovered: it turned on a threshold negotiated between scientists in a room and absent from every theory's published text. That miss is consistent with no training leakage — the engine found what was in the papers, not what was decided in the workshop.
 
 It also surfaced one disagreement the experts could not resolve: a substrate-level divergence that the decidability check correctly ruled untestable and attached the specific structural reason (both theories deny a specific property at the substrate level, so functional experiments cannot separate them at that level).
 
@@ -48,7 +48,7 @@ It also surfaced one disagreement the experts could not resolve: a substrate-lev
 
 A second demo was built for a US institution whose research programme spans physics and philosophical traditions. The engine handled 81 sources across unified field theory, Vedantic texts, neuroscience, condensed matter physics, developmental biology, population ecology, and formal language theory.
 
-**Implementation note:** In this demo, matching and audit ran on prompted model agents, not the production deterministic judge. The port to the production VF2 judge is a named next step. The intellectual architecture was identical (extract, match, grade, decidability, experiments, rejections), but the matching step was non-deterministic. The audit discipline was the mitigation: of 62 initial matches, 55 were quarantined or rejected (~89% rejection rate). Only 4 survived the strict 5-criterion quality audit.
+**Implementation note:** In this demo, matching and audit ran on prompted model agents, not a deterministic judge. Porting it to the typed VF2 matcher, which is still in development, is a named next step. The intellectual architecture was identical (extract, match, grade, decidability, experiments, rejections), but the matching step was non-deterministic. The audit discipline was the mitigation: of 62 initial matches, 55 were quarantined or rejected (~89% rejection rate). Only 4 survived the strict 5-criterion quality audit.
 
 A post-build literature audit reclassified most survivors as blind recoveries of known correspondences, keeping two genuinely novel claims. This is published as a correction.
 
@@ -68,4 +68,4 @@ A post-build literature audit reclassified most survivors as blind recoveries of
 
 Most AI-for-science papers evaluate on benchmarks: held-out test sets, accuracy scores, leaderboard positions. This evaluation is different. It tested against a real, preregistered, expert-conducted adversarial collaboration with published results. The experts did not design the evaluation for the engine. The engine was designed to handle the task the experts had already done, blind.
 
-This kind of evaluation is rare, and demanding: can the system do what experts do, on the experts' own task, without seeing their answers? On this test the result was suggestive rather than conclusive (p = 0.075, small n), and is reported here with its null rather than as a headline accuracy number.
+This kind of evaluation is rare, and demanding: can the system do what experts do, on the experts' own task, without seeing their answers? On this test the result was suggestive rather than conclusive (2 of 3 after a disclosed re-review, originally 1 of 3; p = 0.075 against a 1,000-key permutation null), and is reported here with its null rather than as a headline accuracy number.

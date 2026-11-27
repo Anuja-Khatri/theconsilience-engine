@@ -4,17 +4,12 @@ Worked examples anyone can run.
 
 ## Determinism demo
 
-The single most persuasive artifact in this repo. Run it twice. Watch the hashes match.
 
 ```bash
 cd determinism-demo
 python run_demo.py
 ```
 
-## Rejection examples
+It grades one input twice in one process and compares the two hashes. It exercises the grading ladder only; the test suite in `../tests/` covers the rest of `judge/`.
 
-Published rejections with structural reasons. Each JSON file is a real rejection from the demo, showing the specific edge or node that broke the match.
-
-## Grading examples
-
-One example at each of the four rungs, showing what each rung looks like and what its ceiling says.
+Rejection and grading examples are not yet in this directory.

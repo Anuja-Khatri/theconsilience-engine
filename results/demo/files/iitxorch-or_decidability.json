@@ -1,0 +1,82 @@
+{
+  "pair": "IITxOrch-OR",
+  "fork_verdicts": [
+    {
+      "fork_ref": "IITxOrch-OR:locus",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "disjoint measurement scales (brain_network vs molecular)"
+    },
+    {
+      "fork_ref": "IITxOrch-OR:locus",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "disjoint measurement scales (brain_network vs molecular)"
+    },
+    {
+      "fork_ref": "IITxOrch-OR:locus",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "disjoint measurement scales (brain_network vs molecular)"
+    },
+    {
+      "fork_ref": "IITxOrch-OR:locus",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "disjoint measurement scales (brain_network vs molecular)"
+    },
+    {
+      "fork_ref": "IITxOrch-OR:locus",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "disjoint measurement scales (brain_network vs molecular)"
+    },
+    {
+      "fork_ref": "IITxOrch-OR:locus",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "disjoint measurement scales (brain_network vs molecular)"
+    },
+    {
+      "fork_ref": "IITxOrch-OR:locus",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "disjoint measurement scales (brain_network vs molecular)"
+    },
+    {
+      "fork_ref": "IITxOrch-OR:locus",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "disjoint measurement scales (brain_network vs molecular)"
+    },
+    {
+      "fork_ref": "IITxOrch-OR:temporal_profile",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "disjoint measurement scales (brain_network vs molecular)"
+    },
+    {
+      "fork_ref": "IITxOrch-OR:temporal_profile",
+      "decidability": "not_current",
+      "shared_observables": [],
+      "bridge_note": null,
+      "rationale": "disjoint measurement scales (brain_network vs molecular)"
+    }
+  ],
+  "bridge": {
+    "fork_ref": "IITxOrch-OR:mechanism_scale",
+    "decidability": "bridge",
+    "shared_observables": [],
+    "bridge_note": "Decidable ONLY IF microtubule quantum states measurably modulate network-scale integration (e.g. under anesthesia).",
+    "rationale": "decidable only under unproven bridge 'microtubule_network_anesthesia' (scales brain_network vs molecular disjoint)"
+  }
+}

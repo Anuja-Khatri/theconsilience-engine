@@ -1,0 +1,38 @@
+{
+  "description": "Results of the public cross-theory demo, as receipts. See README.md.",
+  "served_by": "https://consilience-demo.netlify.app/results/",
+  "retrieved": "2026-11-17",
+  "transform": "results/demo/make_receipts.py: remove every 'extractor_model' field and the 'text' of every 'prov' excerpt; write json.dumps(indent=2, ensure_ascii=False) plus a newline. Nothing else is changed.",
+  "files": [
+    {
+      "path": "results/demo/files/run_manifest.json",
+      "sha256": "090449d2faa6f1b9761352c546dfe33119c01e426a7f6831bffd4d19368ea7dc",
+      "served_at": "https://consilience-demo.netlify.app/results/run_manifest.json",
+      "served_sha256": "078e53fbd4698d7c5f34210c45e41fc26157dd442154a9b6f27434b3004309f5"
+    },
+    {
+      "path": "results/demo/files/iitxgnwt_judge.json",
+      "sha256": "e4ad57fddd0781d98233afa852d015fb4fdb107004b0fc020c152a85134615c0",
+      "served_at": "https://consilience-demo.netlify.app/results/iitxgnwt_judge.json",
+      "served_sha256": "91f4bbec746ea145d69b9aa6e05752a4dd12547e622a277cdcdf1a573f3acfdf"
+    },
+    {
+      "path": "results/demo/files/iitxgnwt_decidability.json",
+      "sha256": "feb08368788e466fc6cfeb7465f6e531291592cb827076854814652dcd903113",
+      "served_at": "https://consilience-demo.netlify.app/results/iitxgnwt_decidability.json",
+      "served_sha256": "90c392fa2d70235d5e422feb9d80af3465c534666bb75386207ecec7fff46d6e"
+    },
+    {
+      "path": "results/demo/files/iitxorch-or_judge.json",
+      "sha256": "91caa2c3ca5e943f886598ac972e2f834ba242adfb8cf0c842bb4cb667a0589a",
+      "served_at": "https://consilience-demo.netlify.app/results/iitxorch-or_judge.json",
+      "served_sha256": "63cdc761108c1619021ec844df80f5ede826972e0ac5599d568549a1026c988f"
+    },
+    {
+      "path": "results/demo/files/iitxorch-or_decidability.json",
+      "sha256": "e7a75abb8abf941fa6e83e54cdd7b9fdd313bdf3fe81ee212bd77ca0f2728d2e",
+      "served_at": "https://consilience-demo.netlify.app/results/iitxorch-or_decidability.json",
+      "served_sha256": "16b5bacf53c359bc06b937bca46215eb4d58ca5379944562ac148746cdb4024c"
+    }
+  ]
+}

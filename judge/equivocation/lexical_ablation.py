@@ -77,7 +77,9 @@ def equivocation_test(
     If ANY shared term has zero surviving edges, the
     correspondence is vocabulary-dependent (Newman veto).
     """
-    shared_terms = find_shared_terms(graph_a, graph_b)
+    # Sorted so the output order is the same in every process; iterating a
+    # set of strings follows the per-process hash seed.
+    shared_terms = sorted(find_shared_terms(graph_a, graph_b))
 
     if not shared_terms:
         return {
@@ -96,7 +98,7 @@ def equivocation_test(
             vocabulary_dependent = True
 
     return {
-        "shared_terms": list(shared_terms),
+        "shared_terms": shared_terms,
         "overall_verdict": (
             "vocabulary_dependent" if vocabulary_dependent
             else "structurally_supported"

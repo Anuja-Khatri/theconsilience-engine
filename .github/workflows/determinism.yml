@@ -15,6 +15,8 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install networkx
+        run: pip install -r requirements.txt
+      - name: Run tests
+        run: python -m pytest -q tests
       - name: Run determinism demo
         run: python examples/determinism-demo/run_demo.py
